@@ -1,0 +1,47 @@
+PODS:
+  - AnswerBotSDK (1.1.0):
+    - AnswerBotSDK/Providers (= 1.1.0)
+    - AnswerBotSDK/SDK (= 1.1.0)
+    - ZendeskSDK (= 4.0.0)
+  - AnswerBotSDK/Providers (1.1.0):
+    - ZendeskSDK (= 4.0.0)
+  - AnswerBotSDK/SDK (1.1.0):
+    - AnswerBotSDK/Providers
+    - ZendeskSDK (= 4.0.0)
+  - ZDCChat (1.4.5):
+    - ZDCChat/API (= 1.4.5)
+    - ZDCChat/Localization (= 1.4.5)
+    - ZDCChat/UI (= 1.4.5)
+  - ZDCChat/API (1.4.5)
+  - ZDCChat/Localization (1.4.5)
+  - ZDCChat/UI (1.4.5):
+    - ZDCChat/API
+  - ZendeskSDK (4.0.0):
+    - ZendeskSDK/Providers (= 4.0.0)
+    - ZendeskSDK/UI (= 4.0.0)
+  - ZendeskSDK/Core (4.0.0)
+  - ZendeskSDK/Providers (4.0.0):
+    - ZendeskSDK/Core
+  - ZendeskSDK/UI (4.0.0):
+    - ZendeskSDK/Core
+    - ZendeskSDK/Providers
+
+DEPENDENCIES:
+  - AnswerBotSDK
+  - ZDCChat
+  - ZendeskSDK
+
+SPEC REPOS:
+  trunk:
+    - AnswerBotSDK
+    - ZDCChat
+    - ZendeskSDK
+
+SPEC CHECKSUMS:
+  AnswerBotSDK: 9bb0d002c2881a7c367561ca734a2c583a43ce5c
+  ZDCChat: ce527de86c39efd6a10024f553ed756a400d66f0
+  ZendeskSDK: 99679d8420a6d862773e2ddef0ebcc51b282317d
+
+PODFILE CHECKSUM: 5b1d34df609ebb85bd1ec1d13d23b0d4cfb8ec6c
+
+COCOAPODS: 1.8.4
