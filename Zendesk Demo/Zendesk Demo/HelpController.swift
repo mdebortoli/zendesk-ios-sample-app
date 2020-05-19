@@ -13,11 +13,14 @@
 */
 
 import UIKit
-import ZendeskCoreSDK
-import ZendeskSDK
-import ZDCChat
 import AnswerBotProvidersSDK
 import AnswerBotSDK
+import MessagingSDK
+import MessagingAPI
+import SDKConfigurations
+import SupportSDK
+import ChatSDK
+import ChatProvidersSDK
 
 class HelpController: UIViewController, UINavigationControllerDelegate {
 
@@ -32,37 +35,57 @@ class HelpController: UIViewController, UINavigationControllerDelegate {
     }
     
     @IBAction func BotButton(_ sender: UIButton) {
-        let answerBotUIConfiguration = AnswerBotUIConfiguration()
-        let requestUIConfig = RequestUiConfiguration()
-        requestUIConfig.subject = "Subject: Answer Bot"
-        requestUIConfig.tags = ["Answer_Bot SDK", "SDK", "iOS"]
-        guard let answerBotViewController = AnswerBotUI.buildAnswerBotUI(with: [answerBotUIConfiguration, requestUIConfig]) else { return }
-        self.navigationController?.show(answerBotViewController, sender: self)
+        do {
+            let messagingConfiguration = MessagingConfiguration()
+            let answerBotEngine = try AnswerBotEngine.engine()
+            let supportEngine = try SupportEngine.engine()
+            let chatEngine = try ChatEngine.engine()
+            let viewController = try Messaging.instance.buildUI(engines: [answerBotEngine, supportEngine, chatEngine],
+                                configs: [messagingConfiguration])
+
+            self.navigationController?.pushViewController(viewController, animated: true)
+        } catch {
+            print("ERROR")
+        }
+
     }
     
     @IBAction func ChatButton(_ sender: UIButton) {
-        ZDCChat.start(in: self.navigationController, withConfig: {config in
-            config?.preChatDataRequirements.name = .optionalEditable
-            config?.preChatDataRequirements.email = .requiredEditable
-            config?.preChatDataRequirements.phone = .optional
-            config?.preChatDataRequirements.department = .optionalEditable
-            config?.preChatDataRequirements.message = .required
-        })
+        let chatAPIConfiguration = ChatAPIConfiguration()
+        chatAPIConfiguration.visitorInfo = VisitorInfo(name: config.identityName, email: config.identityEmail, phoneNumber: config.identityPhone)
+        Chat.instance?.configuration = chatAPIConfiguration
+        
+        let chatConfiguration = ChatConfiguration()
+        chatConfiguration.isAgentAvailabilityEnabled = false
+        chatConfiguration.chatMenuActions = [.emailTranscript, .endChat]
+        
+        do {
+          let chatEngine = try ChatEngine.engine()
+          let viewController = try Messaging.instance.buildUI(engines: [chatEngine], configs: [chatConfiguration])
+
+          self.navigationController?.pushViewController(viewController, animated: true)
+        } catch {
+            print("ERROR")
+        }
     }
     
     @IBAction func RequestButton(_ sender: UIButton) {
-        //Create a configuration object
-        let config = RequestUiConfiguration()
-        config.subject = "SDK Ticket"
-        config.tags = ["iOS", "SDK"]
-        //Present the SDK
-        let requestScreen = RequestUi.buildRequestUi(with: [config])
-        self.navigationController?.pushViewController(requestScreen, animated: true)
+         let config = RequestUiConfiguration()
+         config.subject = "SDK Ticket"
+         config.tags = ["iOS", "SDK"]
+
+         let requestScreen = RequestUi.buildRequestUi(with: [config])
+         self.navigationController?.pushViewController(requestScreen, animated: true)
     }
     
     @IBAction func TicketsButton(_ sender: UIButton) {
         let requestList = RequestUi.buildRequestList(with: [])
         self.navigationController?.pushViewController(requestList, animated: true)
+    }
+    
+    @IBAction func CallUs(_ sender: UIButton) {
+        guard let number = URL(string: "tel://" + config.identityPhone) else { return }
+        UIApplication.shared.open(number, options: [:], completionHandler: nil)
     }
 }
 

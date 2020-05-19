@@ -4,7 +4,7 @@ This project is intended to show how the Zendesk SDKs are integrated to an iOS a
 
 ## REQUIREMENTS
 
-- Xcode 11.X
+- Xcode 11.4.X
 - CocoaPods
 
 ## HOW TO USE
@@ -30,7 +30,7 @@ Download this project, uncompress it and follow the steps below.
 // Configuration.swift
 
 // Set your customer's website below
-static var url = "https://www.blablacar.co.uk"
+static var url = "https://www.zendesk.com"
 
 // If you want to inject some extra customization (JavaScript) on your customer's website, add it below.
 // If you don't want to inject any custom code, just leave the "script" var unchanged.
@@ -72,16 +72,16 @@ static var script = """
 
 // Mobile SDK App ID
 // You can find this information at https://{subdomain}.zendesk.com/agent/admin/mobile_sdk
-static var appId = "7b4a039b24deedeb0f0cf9e8ea6e9045d7c2cb0a2a803fa6"
+static var appId = "2d8e09ff8fbc16f0872134115930297d1cb2e7a4080f514f"
 
 // Mobile SDK Client ID
 // You can find this information at https://{subdomain}.zendesk.com/agent/admin/mobile_sdk
-static var clientId = "mobile_sdk_client_231eaf11b612969a6072"
+static var clientId = "mobile_sdk_client_b6843f88bc1fc23caf47"
 
 // Zendesk URL
 // URL of your instance following the format https://{subdomain}.zendesk.com
 // PS: Do not include any additional path other than the main URL of your help center (do not add "/hc/en-us/...")
-static var zendeskUrl = "https://z3n-mdbsdk.zendesk.com"
+static var zendeskUrl = "https://madisonisland.zendesk.com"
 
 // Fake Identity Name (anonymous authentication)
 static var identityName = "John Doe"
@@ -114,5 +114,16 @@ Do not change any other file other than `Configuration.swift`, `help_center_arti
 
 ## CHANGELOG
 
+### 2020-05-19
+- Zendesk SDKs updated to their latest version
+- Added Chat to the "I need help" button (AnswerBot + Support + Chat)
+- Added ability to attach files/request camera access (available if using an actual phone)
+- Fixed "Call Us" button to avoid opening the help center screen
+  PS: the "Call Us" button is not related to any Zendesk SDK and will only work in an actual phone (not on Simulator)
+- Various small changes
+
+### 2020-04-03
+Introduced Unified SDK + SDK updates (kudos to Carl Goldberg)
+
 ### 2020-01-15
-First version released.
+First version released

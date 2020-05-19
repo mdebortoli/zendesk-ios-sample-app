@@ -23,7 +23,7 @@ struct config {
     */
     
     // Set your customer's website below
-    static var url = "https://www.blablacar.co.uk"
+    static var url = "https://www.zendesk.com"
 
     // If you want to inject some extra customization (JavaScript) on your customer's website, add it below.
     // If you don't want to inject any custom code, just leave the "script" var unchanged.
@@ -53,23 +53,26 @@ struct config {
 
     // Mobile SDK App ID
     // You can find this information at https://{subdomain}.zendesk.com/agent/admin/mobile_sdk
-    static var appId = "7b4a039b24deedeb0f0cf9e8ea6e9045d7c2cb0a2a803fa6"
+    static var appId = "2d8e09ff8fbc16f0872134115930297d1cb2e7a4080f514f"
 
     // Mobile SDK Client ID
     // You can find this information at https://{subdomain}.zendesk.com/agent/admin/mobile_sdk
-    static var clientId = "mobile_sdk_client_231eaf11b612969a6072"
+    static var clientId = "mobile_sdk_client_b6843f88bc1fc23caf47"
     
     // Zendesk URL
     // URL of your instance following the format https://{subdomain}.zendesk.com
     // PS: Do not include any additional path other than the main URL of your help center (do not add "/hc/en-us/...")
-    static var zendeskUrl = "https://z3n-mdbsdk.zendesk.com"
+    static var zendeskUrl = "https://madisonisland.zendesk.com"
     
     // Fake Identity Name (anonymous authentication)
     static var identityName = "John Doe"
     
     // Fake Identity Email (anonymous authentication)
     static var identityEmail = "johndoe@z3ntest.com"
-    
+
+    // Fake Identity Phone (NUMBERS ONLY)
+    static var identityPhone = "123456789"
+
     // Zendesk Chat Account Key
     // You can find this information at https://{subdomain}.zendesk.com/chat/agent
     // Click on the avatar icon on the top-right side of the screen and select "Check connection"

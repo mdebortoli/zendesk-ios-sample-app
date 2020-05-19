@@ -111,8 +111,7 @@
 				331D740323CC81EF0031DB42 /* Sources */,
 				331D740423CC81EF0031DB42 /* Frameworks */,
 				331D740523CC81EF0031DB42 /* Resources */,
-				363B2B462D62E5BD71D83B4F /* [CP] Embed Pods Frameworks */,
-				74735B6DB90C2D7A8E1D5C4A /* [CP] Copy Pods Resources */,
+				3A4163E173580B448383BA16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,7 +170,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		363B2B462D62E5BD71D83B4F /* [CP] Embed Pods Frameworks */ = {
+		3A4163E173580B448383BA16 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,23 +185,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		74735B6DB90C2D7A8E1D5C4A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB8F517A8B21393490F55223 /* [CP] Check Pods Manifest.lock */ = {
@@ -386,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3W6W6GLKF;
 				INFOPLIST_FILE = "Zendesk Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3W6W6GLKF;
 				INFOPLIST_FILE = "Zendesk Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

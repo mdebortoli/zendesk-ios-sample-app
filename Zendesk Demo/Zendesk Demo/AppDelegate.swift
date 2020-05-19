@@ -14,11 +14,12 @@
 
 import UIKit
 import WebKit
+import SupportProvidersSDK
 import ZendeskCoreSDK
-import ZendeskSDK
-import ZDCChat
+import SupportProvidersSDK
 import AnswerBotProvidersSDK
-import AnswerBotSDK
+import ChatSDK
+import ChatProvidersSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -39,8 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let identity = Identity.createAnonymous(name: config.identityName, email: config.identityEmail)
         Zendesk.instance?.setIdentity(identity)
         
-        // Initialize Zendesk Chat SDK - Go to "Check connection" on your Chat menu and paste the "Account Key" code below
-        ZDCChat.initialize(withAccountKey: config.chatKey)
+        Chat.initialize(accountKey: config.chatKey)
         
         return true
     }

@@ -1,5 +1,4 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '13.0'
 
 project 'Zendesk Demo/Zendesk Demo.xcodeproj'
 
@@ -8,8 +7,8 @@ target 'Zendesk Demo' do
   use_frameworks!
 
   # Pods for Zendesk Demo
-  pod 'ZendeskSDK'
-  pod 'ZDCChat'
-  pod 'AnswerBotSDK'
+  pod 'ZendeskChatSDK'  
+  pod 'ZendeskSupportSDK'
+  pod 'ZendeskAnswerBotSDK'
 
 end
