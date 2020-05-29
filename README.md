@@ -114,6 +114,9 @@ Do not change any other file other than `Configuration.swift`, `help_center_arti
 
 ## CHANGELOG
 
+### 2020-05-29
+- Allow websites with mixed content (http/https) to be used in the Home screen
+
 ### 2020-05-19
 - Zendesk SDKs updated to their latest version
 - Added Chat to the "I need help" button (AnswerBot + Support + Chat)

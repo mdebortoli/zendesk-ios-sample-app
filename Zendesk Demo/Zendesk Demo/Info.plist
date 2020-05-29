@@ -69,6 +69,11 @@
 	<string>Attach files/images</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Attach files/images</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
