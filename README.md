@@ -1,4 +1,4 @@
-# Zendesk iOS Sample Customized Mobile App
+# Zendesk iOS Sample Mobile App
 
 This project is intended to show how the Zendesk SDKs are integrated to an iOS app, and allow you to create a branded and customized iOS simple sample app using all of them (Support, Chat, AnswerBot).
 
@@ -113,6 +113,9 @@ Do not change any other file other than `Configuration.swift`, `help_center_arti
 [![](https://img.youtube.com/vi/mqjJ3LxLHY8/0.jpg)](https://www.youtube.com/watch?v=mqjJ3LxLHY8)
 
 ## CHANGELOG
+
+### 2020-06-16
+- SDKs updated
 
 ### 2020-05-29
 - Allow websites with mixed content (http/https) to be used in the Home screen
