@@ -20,18 +20,19 @@ import SupportProvidersSDK
 import AnswerBotProvidersSDK
 import ChatSDK
 import ChatProvidersSDK
+import MessagingSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+
         // Initialize SupportSDK - Change it accordingly to your demo instance (go to the "Mobile SDK" link on your Support panel and paste the Swift code below)
         Zendesk.initialize(appId: config.appId,
                            clientId: config.clientId,
                            zendeskUrl: config.zendeskUrl)
         Support.initialize(withZendesk: Zendesk.instance)
-        
+
         // Initialize Answer Bot with instances of Zendesk and Support singletons
         guard let support = Support.instance else { return false }
         AnswerBot.initialize(withZendesk: Zendesk.instance, support: support)
@@ -39,9 +40,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Set Fake Identity
         let identity = Identity.createAnonymous(name: config.identityName, email: config.identityEmail)
         Zendesk.instance?.setIdentity(identity)
-        
-        Chat.initialize(accountKey: config.chatKey)
-        
+
+        ZendeskChat.instance.initialize()
+
         return true
     }
 

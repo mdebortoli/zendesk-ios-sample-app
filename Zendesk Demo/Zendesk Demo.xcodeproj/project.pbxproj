@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33135672252DC6FC007A19DA /* ZendeskChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33135671252DC6FC007A19DA /* ZendeskChat.swift */; };
 		331D740B23CC81EF0031DB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D740A23CC81EF0031DB42 /* AppDelegate.swift */; };
 		331D740D23CC81EF0031DB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D740C23CC81EF0031DB42 /* SceneDelegate.swift */; };
 		331D740F23CC81EF0031DB42 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D740E23CC81EF0031DB42 /* HomeController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		297C4F6E44193967251FF393 /* Pods-Zendesk Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zendesk Demo.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		33135671252DC6FC007A19DA /* ZendeskChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZendeskChat.swift; sourceTree = "<group>"; };
 		331D740723CC81EF0031DB42 /* Zendesk Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zendesk Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		331D740A23CC81EF0031DB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		331D740C23CC81EF0031DB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				331D740C23CC81EF0031DB42 /* SceneDelegate.swift */,
 				331D740E23CC81EF0031DB42 /* HomeController.swift */,
 				331D741023CC81EF0031DB42 /* HelpController.swift */,
+				33135671252DC6FC007A19DA /* ZendeskChat.swift */,
 				331D741223CC81EF0031DB42 /* Main.storyboard */,
 				331D741523CC81F10031DB42 /* Assets.xcassets */,
 				331D741723CC81F10031DB42 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 				331D741123CC81EF0031DB42 /* HelpController.swift in Sources */,
 				33A7A48A23CE140D00CCE25E /* Configuration.swift in Sources */,
 				331D740F23CC81EF0031DB42 /* HomeController.swift in Sources */,
+				33135672252DC6FC007A19DA /* ZendeskChat.swift in Sources */,
 				331D740B23CC81EF0031DB42 /* AppDelegate.swift in Sources */,
 				331D740D23CC81EF0031DB42 /* SceneDelegate.swift in Sources */,
 			);

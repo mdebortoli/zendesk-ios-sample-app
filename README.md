@@ -12,6 +12,7 @@ This project is intended to show how the Zendesk SDKs are integrated to an iOS a
 Download this project, uncompress it and follow the steps below.
 
 ### GETTING STARTED
+
 - Make sure you have Xcode and CocoaPods installed on your computer
 - If you don't have Xcode installed, you can find it for free in your App Store
 - If you don't have CocoaPods, install it by running the following command on Terminal:
@@ -20,12 +21,13 @@ Download this project, uncompress it and follow the steps below.
   ```
 
 ### CONFIGURATION
+
 - Open the `Zendesk Demo.xcworkspace` file using Xcode
 - On the left-side panel of Xcode, open the `Configuration.swift` file and change the following information.
-![](Documentation/left-panel.png)
-
+  ![](Documentation/left-panel.png)
 
 #### FOR THE HOME SCREEN
+
 ```swift
 // Configuration.swift
 
@@ -46,6 +48,7 @@ static var script = """
 ```
 
 FYI: If you don't want to inject any extra JavaScript code on the customer's website, just leave the `script` var unchanged. This is useful when you want to inject some extra information locally. For example, if you want to add a Zendesk Web Widget to their website, you would want to change it to:
+
 ```swift
 static var script = """
                     // Custom code starts here
@@ -89,38 +92,56 @@ static var identityName = "John Doe"
 // Fake Identity Email (anonymous authentication)
 static var identityEmail = "johndoe@z3ntest.com"
 
+// Fake Identity Phone (NUMBERS ONLY)
+static var identityPhone = "123456789"
+
 // Zendesk Chat Account Key
 // You can find this information at https://{subdomain}.zendesk.com/chat/agent
 // Click on the avatar icon on the top-right side of the screen and select "Check connection"
 static var chatKey = "uDwUGy6SFx9fJEs3iIAsS1kozRa7u0GR"
+
+// Add custom chat rating buttons? (Boolean: true / false)
+static var chatRating = false
 ```
 
 #### CUSTOMIZING THE BRANDING
+
 - Open the `Assets.xcassets` folder on the left-side panel of your Xcode project
 - Click on "Background" and drag-and-drop a new background into the old 2x image
 - Repeat the same process for the logo
-![](Documentation/asset-replacement.gif)
+  ![](Documentation/asset-replacement.gif)
 
 FYI: For better results, use high-resolution images for both background and the logo. A PNG with a transparent background is also recommended for the logo. If you notice unwanted crop on the images or the logo being smaller than it should be, please use an image editor to make sure that your image doesn't have unwanted extra blank space on its surroundings.
 
 ### EXTRA OPTIONAL CUSTOMIZATION
+
 If you want to [customize the look](https://developer.zendesk.com/embeddables/docs/ios_support_sdk/customize_the_look) of your help center, you can edit the file `help_center_article_styles.css`.
 
 ## IMPORTANT
+
 Do not change any other file other than `Configuration.swift`, `help_center_article_styles.css`, or assets, unless you know what you're doing.
 
 ## CUSTOMIZATION DEMO
+
 [![](https://img.youtube.com/vi/mqjJ3LxLHY8/0.jpg)](https://www.youtube.com/watch?v=mqjJ3LxLHY8)
 
 ## CHANGELOG
 
+### 2020-10-07
+
+- New SDKs updates
+- Added non-native chat rating buttons
+
 ### 2020-06-16
+
 - SDKs updated
 
 ### 2020-05-29
+
 - Allow websites with mixed content (http/https) to be used in the Home screen
 
 ### 2020-05-19
+
 - Zendesk SDKs updated to their latest version
 - Added Chat to the "I need help" button (AnswerBot + Support + Chat)
 - Added ability to attach files/request camera access (available if using an actual phone)
@@ -129,7 +150,9 @@ Do not change any other file other than `Configuration.swift`, `help_center_arti
 - Various small changes
 
 ### 2020-04-03
+
 Introduced Unified SDK + SDK updates (kudos to Carl Goldberg)
 
 ### 2020-01-15
+
 First version released

@@ -21,6 +21,7 @@ import SDKConfigurations
 import SupportSDK
 import ChatSDK
 import ChatProvidersSDK
+import MessagingSDK
 
 class HelpController: UIViewController, UINavigationControllerDelegate {
 
@@ -33,7 +34,7 @@ class HelpController: UIViewController, UINavigationControllerDelegate {
         let helpCenter = HelpCenterUi.buildHelpCenterOverviewUi(withConfigs: [])
         self.navigationController?.pushViewController(helpCenter, animated: true)
     }
-    
+
     @IBAction func BotButton(_ sender: UIButton) {
         do {
             let messagingConfiguration = MessagingConfiguration()
@@ -49,26 +50,16 @@ class HelpController: UIViewController, UINavigationControllerDelegate {
         }
 
     }
-    
-    @IBAction func ChatButton(_ sender: UIButton) {
-        let chatAPIConfiguration = ChatAPIConfiguration()
-        chatAPIConfiguration.visitorInfo = VisitorInfo(name: config.identityName, email: config.identityEmail, phoneNumber: config.identityPhone)
-        Chat.instance?.configuration = chatAPIConfiguration
-        
-        let chatConfiguration = ChatConfiguration()
-        chatConfiguration.isAgentAvailabilityEnabled = false
-        chatConfiguration.chatMenuActions = [.emailTranscript, .endChat]
-        
-        do {
-          let chatEngine = try ChatEngine.engine()
-          let viewController = try Messaging.instance.buildUI(engines: [chatEngine], configs: [chatConfiguration])
 
-          self.navigationController?.pushViewController(viewController, animated: true)
+    @IBAction func ChatButton(_ sender: UIButton) {
+        do {
+            let viewController = try ZendeskChat.instance.buildMessagingViewController()
+            presentModally(viewController)
         } catch {
-            print("ERROR")
+            print(error)
         }
     }
-    
+
     @IBAction func RequestButton(_ sender: UIButton) {
          let config = RequestUiConfiguration()
          config.subject = "SDK Ticket"
@@ -77,16 +68,67 @@ class HelpController: UIViewController, UINavigationControllerDelegate {
          let requestScreen = RequestUi.buildRequestUi(with: [config])
          self.navigationController?.pushViewController(requestScreen, animated: true)
     }
-    
+
     @IBAction func TicketsButton(_ sender: UIButton) {
         let requestList = RequestUi.buildRequestList(with: [])
         self.navigationController?.pushViewController(requestList, animated: true)
     }
-    
+
     @IBAction func CallUs(_ sender: UIButton) {
         guard let number = URL(string: "tel://" + config.identityPhone) else { return }
         UIApplication.shared.open(number, options: [:], completionHandler: nil)
     }
+
+
+
+    /* Custom Chat Functions (add rating)                                      //
+    ////////////////////////////////////////////////////////////////////////// */
+
+    private func pushViewController(_ viewController: UIViewController) {
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
+
+    private func presentModally(_ viewController: UIViewController,
+                                presenationStyle: UIModalPresentationStyle = .automatic) {
+
+        // Positive vote button
+        let thumbsUp = UIBarButtonItem(image: UIImage(systemName: "hand.thumbsup.fill"), style: .plain, target: self, action: #selector(chatPositiveVote))
+
+        // Negative vote button
+        let thumbsDown = UIBarButtonItem(image: UIImage(systemName: "hand.thumbsdown.fill"), style: .plain, target: self, action: #selector(chatNegativeVote))
+
+        // End chat button
+        let endChat = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(chatEnd))
+
+        // If custom chat rating is enable, add the three buttons above to the top of the modal window
+        if (config.chatRating) {
+            viewController.navigationItem.leftBarButtonItems = [endChat, thumbsUp, thumbsDown]
+        }
+        else {
+            viewController.navigationItem.leftBarButtonItems = [endChat]
+        }
+
+        let navigationController = UINavigationController(rootViewController: viewController)
+        navigationController.modalPresentationStyle = presenationStyle
+        present(navigationController, animated: true)
+    }
+
+    // Chat - Positive vote
+    @objc private func chatPositiveVote() {
+        Chat.chatProvider?.sendChatRating(.good)
+    }
+
+    // Chat - Negative vote
+    @objc private func chatNegativeVote() {
+        Chat.chatProvider?.sendChatRating(.bad)
+    }
+
+    // End chat
+    @objc private func chatEnd() {
+        Chat.chatProvider?.endChat()
+        navigationController?.dismiss(animated: true, completion: nil)
+    }
+
 }
 
 /*
