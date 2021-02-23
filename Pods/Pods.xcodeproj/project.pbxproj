@@ -9,8 +9,10 @@
 /* Begin PBXAggregateTarget section */
 		0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A4A858CB7BB3B0D91CAFFC3F7FF871DE /* Build configuration list for PBXAggregateTarget "ZendeskSDKConfigurationsSDK" */;
+			buildConfigurationList = E1F89A65D011D32E8F84F006A47A7834 /* Build configuration list for PBXAggregateTarget "ZendeskSDKConfigurationsSDK" */;
 			buildPhases = (
+				705827F70AB2A10BE7DBF2119165AB2F /* [CP] Copy dSYMs */,
+				4DD0381C7389FD5B01728CEEFD9B6BF5 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -18,71 +20,84 @@
 		};
 		37E8A7EE87D035876454F72D479BE040 /* ZendeskChatSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 33D1C87A3647A0C552B6FACF69B8C8FF /* Build configuration list for PBXAggregateTarget "ZendeskChatSDK" */;
+			buildConfigurationList = 20CDB09A1C0DB4E056EEDBF4EB2CED90 /* Build configuration list for PBXAggregateTarget "ZendeskChatSDK" */;
 			buildPhases = (
+				507A4355B90D30AF96840A790F8FECC3 /* [CP] Copy dSYMs */,
+				EE559E2B1910D79FABAB49C24FFC6873 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				B7599FA52C86DDAD2776CBE98E25A5C1 /* PBXTargetDependency */,
-				81B4215CB37C905916CBA72E558FE0A2 /* PBXTargetDependency */,
+				A12A4CB221B1556E407EEB02179FCA3B /* PBXTargetDependency */,
+				0AAED7662BB0DB408BBFA2408DD8F4B9 /* PBXTargetDependency */,
 			);
 			name = ZendeskChatSDK;
 		};
 		7D8830E5D05F68364F3360F2C0DA9813 /* ZendeskSupportProvidersSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C257921D066B7C7F5CA5C75A93B01DA8 /* Build configuration list for PBXAggregateTarget "ZendeskSupportProvidersSDK" */;
+			buildConfigurationList = BE4ABB2AA3923623C0290766147F0722 /* Build configuration list for PBXAggregateTarget "ZendeskSupportProvidersSDK" */;
 			buildPhases = (
+				9FFC55C2FB3AD9090A528D28D98AA780 /* [CP] Copy dSYMs */,
+				D786B451189A803EEBCEB9BE3EE46F56 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				D53F62608EBD4C910CBE3FC9AFAAD141 /* PBXTargetDependency */,
+				32CBBB81BCE3D6DA6BDDF9AB7951A327 /* PBXTargetDependency */,
 			);
 			name = ZendeskSupportProvidersSDK;
 		};
 		AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9B70143F040119BE6253279360A82072 /* Build configuration list for PBXAggregateTarget "ZendeskCommonUISDK" */;
+			buildConfigurationList = 92DAA36A4D8CE287D51A4E92A0F58D5C /* Build configuration list for PBXAggregateTarget "ZendeskCommonUISDK" */;
 			buildPhases = (
+				BF2FF424489AC186FAA744409EDBA119 /* [CP] Copy dSYMs */,
+				3D154544EEDEF46E97BBCA3C0207F10D /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				50E40AAB38A695BD006B4057E07A781F /* PBXTargetDependency */,
 			);
 			name = ZendeskCommonUISDK;
 		};
 		B7FD2D91EB22188E295F7D1E59A7F649 /* ZendeskSupportSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 389CABBC252136DB4A66886BCE22D1A6 /* Build configuration list for PBXAggregateTarget "ZendeskSupportSDK" */;
+			buildConfigurationList = 1B69EF80608B3584B4D9586760C55A77 /* Build configuration list for PBXAggregateTarget "ZendeskSupportSDK" */;
 			buildPhases = (
+				AC5CE9D90520AEA0826A0C186010DAEB /* [CP] Copy dSYMs */,
+				305288EBBA3DDB3551D2B6BD04D5399A /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				661F722924D23466041FF5CD6EC42581 /* PBXTargetDependency */,
-				675C67889DF375C8D3E7DADB00BB56C1 /* PBXTargetDependency */,
+				0C25A109DFE39F6319BCF4EA27767934 /* PBXTargetDependency */,
+				9DA9991D8CCB5369784BBDA821AE3F0A /* PBXTargetDependency */,
 			);
 			name = ZendeskSupportSDK;
 		};
 		C03644355F64EC4A571948584FB50DAE /* ZendeskAnswerBotProvidersSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2BCE1F70CF10885C91B8243B97A21071 /* Build configuration list for PBXAggregateTarget "ZendeskAnswerBotProvidersSDK" */;
+			buildConfigurationList = CFA0804E174A8452A61F5E14F2BF083C /* Build configuration list for PBXAggregateTarget "ZendeskAnswerBotProvidersSDK" */;
 			buildPhases = (
+				01B8543CAE75594431440751A54730CE /* [CP] Copy dSYMs */,
+				946E3A9506DE65840C623F7AF8920401 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				1E7C7138112F0ADA9C1609D20E506322 /* PBXTargetDependency */,
+				A38B4BD32C8FE94329CC68159C33DFA6 /* PBXTargetDependency */,
 			);
 			name = ZendeskAnswerBotProvidersSDK;
 		};
 		C24133A32883D93E31DDD62A77AAF401 /* ZendeskAnswerBotSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 421D072A7823C2FDB21453FFD428616B /* Build configuration list for PBXAggregateTarget "ZendeskAnswerBotSDK" */;
+			buildConfigurationList = 21EBEAC5E28B9A9D1907C7F2DECD9B69 /* Build configuration list for PBXAggregateTarget "ZendeskAnswerBotSDK" */;
 			buildPhases = (
+				0EFBFFB6873B44D89E4D1A03FF8E7288 /* [CP] Copy dSYMs */,
+				A2A04E7C417609782CE95915C1DABA99 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				CA769C0D7768F8B8C13CAD991570796B /* PBXTargetDependency */,
-				DCF6A03649FEE0C494E062D457AC9894 /* PBXTargetDependency */,
+				ADD49C31DEB02FDD3C0C4DCCA10FE3AD /* PBXTargetDependency */,
+				C94B1819BB93455B0569E36BD1601DB5 /* PBXTargetDependency */,
 			);
 			name = ZendeskAnswerBotSDK;
 		};
 		CB83A11C8D5DDAE33988A94AF1C7653D /* ZendeskCoreSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4C080A7646A1E117D64C28CEF4D4CE3F /* Build configuration list for PBXAggregateTarget "ZendeskCoreSDK" */;
+			buildConfigurationList = 0FA48E05894212F917D447B3BCC51DD6 /* Build configuration list for PBXAggregateTarget "ZendeskCoreSDK" */;
 			buildPhases = (
+				B5E32AD10656BD075223B6DEBDC265B5 /* [CP] Copy dSYMs */,
+				891020FCBB8D04E7A6A24C2A1B3B224D /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -90,8 +105,10 @@
 		};
 		CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 5293D7DCAEBB523E068A0704623E0EE3 /* Build configuration list for PBXAggregateTarget "ZendeskChatProvidersSDK" */;
+			buildConfigurationList = 1B91A314ED9F97588BD7B41945587D63 /* Build configuration list for PBXAggregateTarget "ZendeskChatProvidersSDK" */;
 			buildPhases = (
+				40F7D9B67CD1D20FFE5A7217A3153E6A /* [CP] Copy dSYMs */,
+				47B6C2709285561A15B7DFC5E47075CE /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -99,360 +116,468 @@
 		};
 		D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 97746C51687FF62057EA86602F8707C5 /* Build configuration list for PBXAggregateTarget "ZendeskMessagingAPISDK" */;
+			buildConfigurationList = E1AD1BDDD8A6F735B9586B0C49AF88AA /* Build configuration list for PBXAggregateTarget "ZendeskMessagingAPISDK" */;
 			buildPhases = (
+				E281F7DF8F9F2FA483AAD8E5521AE63D /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				32BB22484C03F2F842BC7882B9904138 /* PBXTargetDependency */,
+				3FE9AC2B35A521AD91889BE0F72B1C27 /* PBXTargetDependency */,
 			);
 			name = ZendeskMessagingAPISDK;
 		};
 		D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C60A29B51C81F9F6BB30EC818D277365 /* Build configuration list for PBXAggregateTarget "ZendeskMessagingSDK" */;
+			buildConfigurationList = B9BF24FD13C9181E855B1A839851B0BB /* Build configuration list for PBXAggregateTarget "ZendeskMessagingSDK" */;
 			buildPhases = (
+				9F449F062956F120D0ACC7B3E7F9F393 /* [CP] Copy dSYMs */,
+				A3A6F1B0F9AFC276ADA33430992F32CB /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				7709561765C7DBEAA03B78C58E9BA1F3 /* PBXTargetDependency */,
-				8C46C432749A656526073E797F8D9278 /* PBXTargetDependency */,
+				487A471C46BF31F16B4A0B9F1078398E /* PBXTargetDependency */,
+				D4E787A20B3FEE63196BF7CE8E72EF54 /* PBXTargetDependency */,
 			);
 			name = ZendeskMessagingSDK;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		87032C1CA5BDD4BAAF0C30A648B87D0A /* Pods-Zendesk Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4A3C3D5FA72B564EE157EC2CC1E8E /* Pods-Zendesk Demo-dummy.m */; };
-		BEF1A4951CEA2B75D8FD85E9D174355E /* Pods-Zendesk Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 418763EE64B429D1E8B6F087FADC66D6 /* Pods-Zendesk Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9567D23E99A08EF76BBA8B74E361F74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		07E6DDA64B63AEE5EDA716A6C50D9550 /* Pods-Zendesk Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 418763EE64B429D1E8B6F087FADC66D6 /* Pods-Zendesk Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CE4629AE979EE768D883CFE81D40F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		782BA61B2FB000E7857D4706F0A64357 /* Pods-Zendesk Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4A3C3D5FA72B564EE157EC2CC1E8E /* Pods-Zendesk Demo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01185DF53D46C961BF8C86CB07B35D6A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
-			remoteInfo = ZendeskMessagingSDK;
-		};
-		0D8749E9662FB1A1B72DB72734D41C25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
-			remoteInfo = ZendeskMessagingSDK;
-		};
-		1E66DD727D844183A71F41F3A75C3101 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB83A11C8D5DDAE33988A94AF1C7653D;
-			remoteInfo = ZendeskCoreSDK;
-		};
-		24E1E6C0CD30FCE4A1388B994456323F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6FA74719A43C5D8075E0A71C342EDB7;
-			remoteInfo = ZendeskMessagingAPISDK;
-		};
-		3539D91CF594CE933F4F00766EF6BFD5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F43F9AE813A5C024E5F9B8766CD7BD7;
-			remoteInfo = ZendeskSDKConfigurationsSDK;
-		};
-		3BA87CBE251F1FF492C7129C7100C4BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7D8830E5D05F68364F3360F2C0DA9813;
-			remoteInfo = ZendeskSupportProvidersSDK;
-		};
-		3E70BC6711B688E3B67E5284D83E1491 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC6C5B512338029B3195562CA1FAB3FF;
-			remoteInfo = ZendeskCommonUISDK;
-		};
-		40FA3FDC6D50ED3F2DED6BE5DBC1BC8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
-			remoteInfo = ZendeskMessagingSDK;
-		};
-		49DDD6D742BB56798CDB1ED619A3B221 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F43F9AE813A5C024E5F9B8766CD7BD7;
-			remoteInfo = ZendeskSDKConfigurationsSDK;
-		};
-		4CB6600A96E8C8352A69E7B4FCF3C469 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F43F9AE813A5C024E5F9B8766CD7BD7;
-			remoteInfo = ZendeskSDKConfigurationsSDK;
-		};
-		6476CB7BF00DF31E957C63CF542B0A8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
-			remoteInfo = ZendeskMessagingSDK;
-		};
-		65ABF3A1D54FD5128FACC72C00D06114 /* PBXContainerItemProxy */ = {
+		15C3A6943CBF6CE7FCA02DEFED8A4902 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B7FD2D91EB22188E295F7D1E59A7F649;
 			remoteInfo = ZendeskSupportSDK;
 		};
-		665C43C8E2D5A1BB03AE50B7D6A1438C /* PBXContainerItemProxy */ = {
+		1D87BC7BBE39E4FEB143A4A7978C76EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D6FA74719A43C5D8075E0A71C342EDB7;
-			remoteInfo = ZendeskMessagingAPISDK;
+			remoteGlobalIDString = C03644355F64EC4A571948584FB50DAE;
+			remoteInfo = ZendeskAnswerBotProvidersSDK;
 		};
-		684D5EA7407481DAB45E3B1ABF2D3D6C /* PBXContainerItemProxy */ = {
+		3CB7549A607244D33FDBB7FE2A4E687A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8830E5D05F68364F3360F2C0DA9813;
+			remoteInfo = ZendeskSupportProvidersSDK;
+		};
+		432B37110912519065D2259B12040944 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C24133A32883D93E31DDD62A77AAF401;
 			remoteInfo = ZendeskAnswerBotSDK;
 		};
-		68C7CF706B0959028C5BCEF08B72CCD7 /* PBXContainerItemProxy */ = {
+		4EEB27B5BE1F56401274C164622E7E98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC6C5B512338029B3195562CA1FAB3FF;
-			remoteInfo = ZendeskCommonUISDK;
+			remoteGlobalIDString = D6FA74719A43C5D8075E0A71C342EDB7;
+			remoteInfo = ZendeskMessagingAPISDK;
 		};
-		6FC4697A7B752DE14C03BACEF6DDD6B3 /* PBXContainerItemProxy */ = {
+		5FC6EDF62335D533FE7CC42B07C90F0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D8830E5D05F68364F3360F2C0DA9813;
-			remoteInfo = ZendeskSupportProvidersSDK;
+			remoteGlobalIDString = 0F43F9AE813A5C024E5F9B8766CD7BD7;
+			remoteInfo = ZendeskSDKConfigurationsSDK;
 		};
-		803A20E3BEA3BDB6145848B52E7923A9 /* PBXContainerItemProxy */ = {
+		6702D96FDC5A4B4427980E135C4BE5D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37E8A7EE87D035876454F72D479BE040;
-			remoteInfo = ZendeskChatSDK;
+			remoteGlobalIDString = D6FA74719A43C5D8075E0A71C342EDB7;
+			remoteInfo = ZendeskMessagingAPISDK;
 		};
-		937AB5A3446BE84018BCBECFC787A6F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C03644355F64EC4A571948584FB50DAE;
-			remoteInfo = ZendeskAnswerBotProvidersSDK;
-		};
-		97F5C1777B45E894CB0C5746B0E8E1B5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C03644355F64EC4A571948584FB50DAE;
-			remoteInfo = ZendeskAnswerBotProvidersSDK;
-		};
-		AB4C7B1386DF0FEC6190F09BA2233E7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDE5CA8995911366EA20FB62FDDF64CF;
-			remoteInfo = ZendeskChatProvidersSDK;
-		};
-		B55A1E4AF80E87120737A08574D59FD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7D8830E5D05F68364F3360F2C0DA9813;
-			remoteInfo = ZendeskSupportProvidersSDK;
-		};
-		EB5D9670FEB8F73D91DC6EFF9F3771BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDE5CA8995911366EA20FB62FDDF64CF;
-			remoteInfo = ZendeskChatProvidersSDK;
-		};
-		EF8047F38386AC54624BDC678F454FE1 /* PBXContainerItemProxy */ = {
+		6AE4EB7B18FA3CB4090424EBE8595971 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CB83A11C8D5DDAE33988A94AF1C7653D;
 			remoteInfo = ZendeskCoreSDK;
 		};
+		6D9CC3F121DC53ABA697B67BB0A73D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6C5B512338029B3195562CA1FAB3FF;
+			remoteInfo = ZendeskCommonUISDK;
+		};
+		73396C1CCB0EDF3A54F371BAC25C4A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB83A11C8D5DDAE33988A94AF1C7653D;
+			remoteInfo = ZendeskCoreSDK;
+		};
+		8052531B71D1A32A502E47981B7325E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE5CA8995911366EA20FB62FDDF64CF;
+			remoteInfo = ZendeskChatProvidersSDK;
+		};
+		86C839C3EE5D60ADFD12E1934664D75F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E8A7EE87D035876454F72D479BE040;
+			remoteInfo = ZendeskChatSDK;
+		};
+		A94307FC1D0B5D560B625A0842BA2531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6C5B512338029B3195562CA1FAB3FF;
+			remoteInfo = ZendeskCommonUISDK;
+		};
+		AE7943B33793FFD8D005BA394E03F941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
+			remoteInfo = ZendeskMessagingSDK;
+		};
+		B3B96BAFBC39AA2826BDB81443C69F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F43F9AE813A5C024E5F9B8766CD7BD7;
+			remoteInfo = ZendeskSDKConfigurationsSDK;
+		};
+		BC53669ACD433395E45C51761DC021A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8830E5D05F68364F3360F2C0DA9813;
+			remoteInfo = ZendeskSupportProvidersSDK;
+		};
+		C86C13E55C4812918C1EC1E1828C9FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
+			remoteInfo = ZendeskMessagingSDK;
+		};
+		CEE26AE0DEE49AA2F51FB3AA8DB77BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
+			remoteInfo = ZendeskMessagingSDK;
+		};
+		CF0E4DCB4F2B4CB5F211F644104FC424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8830E5D05F68364F3360F2C0DA9813;
+			remoteInfo = ZendeskSupportProvidersSDK;
+		};
+		E1AAB4C20692F9B649BB8E417A3C03FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
+			remoteInfo = ZendeskMessagingSDK;
+		};
+		F66D45412F2E8B6C4682EB7660553A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C03644355F64EC4A571948584FB50DAE;
+			remoteInfo = ZendeskAnswerBotProvidersSDK;
+		};
+		FD4DCF9304330560FA2D920A6A729D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE5CA8995911366EA20FB62FDDF64CF;
+			remoteInfo = ZendeskChatProvidersSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		107AED9635358DAA8DB28F26B065D835 /* SupportProvidersSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SupportProvidersSDK.framework; sourceTree = "<group>"; };
-		1DC12428783F9CB347679E399C35BCA3 /* SDKConfigurations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDKConfigurations.framework; sourceTree = "<group>"; };
+		0420ED559B432F59AC4D2FDBFEED2BF9 /* ZendeskSDKConfigurationsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSDKConfigurationsSDK.release.xcconfig; sourceTree = "<group>"; };
+		0551CCA51A36BA592FAD24C80E4E2592 /* AnswerBotProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AnswerBotProvidersSDK.xcframework; sourceTree = "<group>"; };
+		07916702EF63E3F12D9A6728249B2BC0 /* ZendeskChatSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskChatSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		0AF41C3DF595DBD87F477DCB95817839 /* ZendeskAnswerBotProvidersSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskAnswerBotProvidersSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		0B5E4055490C563026B0FA0212FD1060 /* ZendeskChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatSDK.release.xcconfig; sourceTree = "<group>"; };
+		0BE27173F65022707ED5D7C46AE5011F /* SupportProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SupportProvidersSDK.xcframework; sourceTree = "<group>"; };
+		0DC6B6D031708B0BCF1577A9AB5AD5AB /* ZendeskAnswerBotSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskAnswerBotSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		15637DAECACC021E307D77A241D33733 /* ZendeskAnswerBotProvidersSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotProvidersSDK.debug.xcconfig; sourceTree = "<group>"; };
 		2442B33A01CE2A4C8BAC3AC5C3AAEC82 /* Pods-Zendesk Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zendesk Demo-frameworks.sh"; sourceTree = "<group>"; };
+		271746D3682AFA4A430C4D606C5FD3B8 /* ZendeskCoreSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskCoreSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		2C18EDEFADE5710C95F3B151D7B56C0E /* Pods-Zendesk Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zendesk Demo.release.xcconfig"; sourceTree = "<group>"; };
-		2D36FBCEC54F923713D8FC2A10CE1687 /* ZendeskCommonUISDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCommonUISDK.xcconfig; sourceTree = "<group>"; };
 		2E2337CA6A7026788CB22C044BED7AC5 /* Pods-Zendesk Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zendesk Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		354FAAF503356A9346D2C4C542498A57 /* ChatProvidersSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChatProvidersSDK.framework; sourceTree = "<group>"; };
+		32CE4B9B96BC9DCF3F3938EFF0474613 /* ZendeskCommonUISDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCommonUISDK.debug.xcconfig; sourceTree = "<group>"; };
+		3AC54ACAB41DF5BF1CCE05668C85273A /* ZendeskChatProvidersSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskChatProvidersSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		3B1C3AF0923C212CFD47704F214A4A10 /* ZendeskSupportProvidersSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSupportProvidersSDK.release.xcconfig; sourceTree = "<group>"; };
 		3BE2ABE15B14FFDC798547B3BDE4226E /* Pods_Zendesk_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zendesk_Demo.framework; path = "Pods-Zendesk Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4032C2EB01171992485707897FCC1BD9 /* Pods-Zendesk Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zendesk Demo-Info.plist"; sourceTree = "<group>"; };
 		418763EE64B429D1E8B6F087FADC66D6 /* Pods-Zendesk Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zendesk Demo-umbrella.h"; sourceTree = "<group>"; };
-		48D5CD0D3B2925E3453686ACAABA85B0 /* AnswerBotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnswerBotSDK.framework; sourceTree = "<group>"; };
+		43532984E496AA61E1247B00A79B4354 /* ZendeskMessagingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingSDK.debug.xcconfig; sourceTree = "<group>"; };
+		466A5477D090F2EB34BCFF87928ED3AC /* ZendeskChatProvidersSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatProvidersSDK.debug.xcconfig; sourceTree = "<group>"; };
+		497AAF4B316B6A8B62BEF9E881F16302 /* ZendeskCoreSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskCoreSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		4BA4A3C3D5FA72B564EE157EC2CC1E8E /* Pods-Zendesk Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zendesk Demo-dummy.m"; sourceTree = "<group>"; };
+		4CF7F27DA6E4131D567F2D2CCE26F53A /* ZendeskMessagingAPISDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingAPISDK.debug.xcconfig; sourceTree = "<group>"; };
 		50522C81BC2B923EF91081429924C68D /* Pods-Zendesk Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zendesk Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		51329C21772B8ED7679B1623CEBEE40C /* SupportSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SupportSDK.framework; sourceTree = "<group>"; };
-		524D960267483A125BA689DF742813D5 /* AnswerBotProvidersSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnswerBotProvidersSDK.framework; sourceTree = "<group>"; };
-		5D605D81EC024568B5DF0305788AA702 /* CommonUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonUISDK.framework; sourceTree = "<group>"; };
+		555FA3AE659C2D363D944366FC41EE4D /* ZendeskSupportSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSupportSDK.release.xcconfig; sourceTree = "<group>"; };
+		5583190043353650F53869DB5372BF4E /* ChatSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ChatSDK.xcframework; sourceTree = "<group>"; };
+		55A4B78610485030DF629E4A65E4EEEE /* ZendeskMessagingAPISDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingAPISDK.release.xcconfig; sourceTree = "<group>"; };
+		579A8B1EDA53279BA4047602AA98A271 /* ChatProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ChatProvidersSDK.xcframework; sourceTree = "<group>"; };
+		5C2523DE502DC62AC41017F47D512215 /* MessagingAPI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MessagingAPI.xcframework; sourceTree = "<group>"; };
 		60EB66E1B300B4F1CF7A1678DA06A7CE /* Pods-Zendesk Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zendesk Demo.modulemap"; sourceTree = "<group>"; };
-		6B01A3624589CCBEBA07054125D33690 /* ZendeskAnswerBotProvidersSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotProvidersSDK.xcconfig; sourceTree = "<group>"; };
-		7AFE9D69CCABAB14A7159A69FEC0A7DC /* ZendeskMessagingAPISDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingAPISDK.xcconfig; sourceTree = "<group>"; };
-		9040984F3E7871E4E0D20A81AE30A9B5 /* ZendeskCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskCoreSDK.framework; sourceTree = "<group>"; };
-		9C0D06BAB6B9C62190B4766133956A37 /* MessagingAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MessagingAPI.framework; sourceTree = "<group>"; };
+		627111E7B7BDE189099A7D6003111F87 /* ZendeskMessagingAPISDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskMessagingAPISDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		63296717C0A84CB8898A56F8FB0A9253 /* ZendeskCommonUISDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskCommonUISDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		67ACF98FFF3294FFC30949470BE94BD5 /* ZendeskMessagingSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskMessagingSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		750BE57DF7C0DB7466DE2D2A9A3F33FA /* ZendeskSDKConfigurationsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSDKConfigurationsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		7A8CC729A2FC86FB4621496CCD73F806 /* ZendeskAnswerBotSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotSDK.debug.xcconfig; sourceTree = "<group>"; };
+		897B057CE718C26163D692087776189B /* ZendeskCoreSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZendeskCoreSDK.xcframework; sourceTree = "<group>"; };
+		8A6BF4C828AF3EA53B402EAD444446A7 /* ZendeskSupportSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSupportSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		9057B80417B4530D271FF911649306BE /* ZendeskSDKConfigurationsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSDKConfigurationsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		91957B323D38A8934F57DD7A6420F9BB /* CommonUISDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CommonUISDK.xcframework; sourceTree = "<group>"; };
+		91B11C4B54B162AEA344142B9C239FA7 /* ZendeskAnswerBotProvidersSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotProvidersSDK.release.xcconfig; sourceTree = "<group>"; };
+		99FE1BABB23EF37C7B4D286A95798544 /* ZendeskChatProvidersSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskChatProvidersSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F880A9152D3FC49F3266AB5ADFA4133 /* ZendeskChatProvidersSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatProvidersSDK.xcconfig; sourceTree = "<group>"; };
-		ABD2236C72C0A3A96D756BD37A6B3A81 /* ZendeskChatSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatSDK.xcconfig; sourceTree = "<group>"; };
-		B0E98C36E5F873D6BE9C7280C40B7996 /* ZendeskSupportProvidersSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSupportProvidersSDK.xcconfig; sourceTree = "<group>"; };
+		9EC3CDB2CE1F4332AD410815ADBD650D /* ZendeskSupportSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSupportSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		AA5B2D92E2CD77D0D05D119C3E6F8CA3 /* ZendeskMessagingSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskMessagingSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		AE4DF740B575D89DD45B20A74F151863 /* ZendeskSupportProvidersSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSupportProvidersSDK.debug.xcconfig; sourceTree = "<group>"; };
 		B49E9D731A206E2756862FD8B7588EF5 /* Pods-Zendesk Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zendesk Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		BF4FE8EFF44BB258BA204CF27C6231DA /* ZendeskSupportSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSupportSDK.xcconfig; sourceTree = "<group>"; };
-		D484A48355E49F9CA7F019A1FA8F6EC1 /* MessagingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MessagingSDK.framework; sourceTree = "<group>"; };
-		D68E3C9D5A7B877E5C828DB45BA1EC57 /* ZendeskSDKConfigurationsSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSDKConfigurationsSDK.xcconfig; sourceTree = "<group>"; };
-		E096C28BF11F4D3F3496FC13089EAE10 /* ChatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChatSDK.framework; sourceTree = "<group>"; };
-		F1257F004F5C882C4AFCB6C154A4C955 /* ZendeskCoreSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCoreSDK.xcconfig; sourceTree = "<group>"; };
-		F74B2FB6DBE49909C3F0AB51C6BA2309 /* ZendeskAnswerBotSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotSDK.xcconfig; sourceTree = "<group>"; };
-		FE40E1137903D3827E9BEA2A4B0F0314 /* ZendeskMessagingSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingSDK.xcconfig; sourceTree = "<group>"; };
+		B86E52BB5F016BAD0CE045C4EE76F732 /* ZendeskSupportProvidersSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSupportProvidersSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		BAAB7AD61BA52B37DCBB1943B6254887 /* ZendeskChatSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskChatSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		BDEA57C57DB12D9DBC47178DA8023ADC /* ZendeskCoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCoreSDK.release.xcconfig; sourceTree = "<group>"; };
+		BEE67BBF8C09D0E1D8FCBA6642CDF5E4 /* SDKConfigurations.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SDKConfigurations.xcframework; sourceTree = "<group>"; };
+		C39DFC5F33F2958BEF49AD5D75509E57 /* ZendeskCommonUISDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCommonUISDK.release.xcconfig; sourceTree = "<group>"; };
+		C48BED37F3096DDA1C07EDDE7EAF6A64 /* ZendeskAnswerBotProvidersSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskAnswerBotProvidersSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		C91AF46419B6F4D4E86009D9FC2ED7C2 /* ZendeskSupportSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSupportSDK.debug.xcconfig; sourceTree = "<group>"; };
+		C9FB388D047B238CCBD66A3E12320AF3 /* ZendeskSDKConfigurationsSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSDKConfigurationsSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		CE18202F140A9A5FB96E3BF736A97A1D /* AnswerBotSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AnswerBotSDK.xcframework; sourceTree = "<group>"; };
+		CF795A5DBCB36966E1E3EE65429CB534 /* ZendeskCoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCoreSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D4698D92E61BCAA8996D28F7A0C7B7DB /* ZendeskSupportProvidersSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSupportProvidersSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		DF21545E553ACB67712FDB855C4E1E6D /* ZendeskMessagingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingSDK.release.xcconfig; sourceTree = "<group>"; };
+		E38B14D8814A4082968DED1E6640D683 /* ZendeskChatProvidersSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatProvidersSDK.release.xcconfig; sourceTree = "<group>"; };
+		ED27DE7196C6178C6F19B5F7723AEACA /* ZendeskCommonUISDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskCommonUISDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		F66766029392F3E33BB3852DFE5E4B8D /* ZendeskChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatSDK.debug.xcconfig; sourceTree = "<group>"; };
+		F9616D701E41881D51581A626038E4D8 /* ZendeskAnswerBotSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskAnswerBotSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		FBF44C5B172A647C3F3C2F361B5C91A7 /* ZendeskAnswerBotSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotSDK.release.xcconfig; sourceTree = "<group>"; };
+		FC78CC48F17FB7FECADB56E7F9386DD6 /* SupportSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SupportSDK.xcframework; sourceTree = "<group>"; };
+		FD403902BDBB723FA2CBC7ECCC6BBA92 /* MessagingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MessagingSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0534F69CBA6C1385033E37DECD2B7DB8 /* Frameworks */ = {
+		C900F8329A15B38B695CDEABB26BC273 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9567D23E99A08EF76BBA8B74E361F74 /* Foundation.framework in Frameworks */,
+				4CE4629AE979EE768D883CFE81D40F86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0866731B104A70C14F5E06FD33579A9C /* ZendeskCoreSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9E1286D159EDF137948C444C0EC66720 /* Frameworks */,
+				EFBD774599073CFCB79415CE147DEB10 /* Support Files */,
+			);
+			name = ZendeskCoreSDK;
+			path = ZendeskCoreSDK;
+			sourceTree = "<group>";
+		};
 		0AC344EC3F973340BEA3531C3E77677A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B7E85D4C3A08DF9DD73FE385B23A1478 /* ZendeskAnswerBotProvidersSDK */,
-				AA848651A3049DFD0BBD53F18CB11C25 /* ZendeskAnswerBotSDK */,
-				CB6B2CF27871289CB19DCBE2AFC0EA46 /* ZendeskChatProvidersSDK */,
-				88DB37236D859987227F8D09B9E3BBE4 /* ZendeskChatSDK */,
-				6D943353E38480B52F5C06730A066832 /* ZendeskCommonUISDK */,
-				7D7CDE6237E65F3048B58AA606BDDA17 /* ZendeskCoreSDK */,
-				9884133F5D357B21821A6AF3FE4E4D0B /* ZendeskMessagingAPISDK */,
-				161EA2A6337A805BCA269D42CC8E3282 /* ZendeskMessagingSDK */,
-				161ABDBF8D250D423ABFD97AC5970AEE /* ZendeskSDKConfigurationsSDK */,
-				2918463FF4974D55BAB5D3EEA262052C /* ZendeskSupportProvidersSDK */,
-				F003B5D8E0C487CAC2C8E8EFF79171E9 /* ZendeskSupportSDK */,
+				C93109550440C144401150717CC594A6 /* ZendeskAnswerBotProvidersSDK */,
+				D6807EA4519BFCFB1D75DC568B059B1B /* ZendeskAnswerBotSDK */,
+				76D47A9FB1E9D7230A6C44C8A5253D44 /* ZendeskChatProvidersSDK */,
+				944827031FBDB8DDEE2AE3C004F24B14 /* ZendeskChatSDK */,
+				8B2A1BDBBEEB27D2BD7434A425D82F0D /* ZendeskCommonUISDK */,
+				0866731B104A70C14F5E06FD33579A9C /* ZendeskCoreSDK */,
+				60CDC0CA013EC7079C84BBAAE9871602 /* ZendeskMessagingAPISDK */,
+				4E23D7345F0B932978AC323820CA02B2 /* ZendeskMessagingSDK */,
+				734D85F67F073C4EA8B26A29B8664F79 /* ZendeskSDKConfigurationsSDK */,
+				F59B18905C213FA87E29710F097C2C3E /* ZendeskSupportProvidersSDK */,
+				69594265BB5AE66596A20CF5D7FD1909 /* ZendeskSupportSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		12C35C5D6404D7FEB56AF23A5A06B0CF /* Support Files */ = {
+		0AE1C5550956FBC0FA72B60E9B22F0F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF4FE8EFF44BB258BA204CF27C6231DA /* ZendeskSupportSDK.xcconfig */,
+				0DC6B6D031708B0BCF1577A9AB5AD5AB /* ZendeskAnswerBotSDK-copy-dsyms.sh */,
+				F9616D701E41881D51581A626038E4D8 /* ZendeskAnswerBotSDK-xcframeworks.sh */,
+				7A8CC729A2FC86FB4621496CCD73F806 /* ZendeskAnswerBotSDK.debug.xcconfig */,
+				FBF44C5B172A647C3F3C2F361B5C91A7 /* ZendeskAnswerBotSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskAnswerBotSDK";
+			sourceTree = "<group>";
+		};
+		2391FDF11121AA62A53614AB2E12B316 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A6BF4C828AF3EA53B402EAD444446A7 /* ZendeskSupportSDK-copy-dsyms.sh */,
+				9EC3CDB2CE1F4332AD410815ADBD650D /* ZendeskSupportSDK-xcframeworks.sh */,
+				C91AF46419B6F4D4E86009D9FC2ED7C2 /* ZendeskSupportSDK.debug.xcconfig */,
+				555FA3AE659C2D363D944366FC41EE4D /* ZendeskSupportSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ZendeskSupportSDK";
 			sourceTree = "<group>";
 		};
-		161ABDBF8D250D423ABFD97AC5970AEE /* ZendeskSDKConfigurationsSDK */ = {
+		2A07023D2338C5183CBC36D9BE9BF47F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				613838EA3B9FC9FC417CB582FEC0D84E /* Frameworks */,
-				F2235E01E1C4BA9B4266EB32342FE1F4 /* Support Files */,
-			);
-			name = ZendeskSDKConfigurationsSDK;
-			path = ZendeskSDKConfigurationsSDK;
-			sourceTree = "<group>";
-		};
-		161EA2A6337A805BCA269D42CC8E3282 /* ZendeskMessagingSDK */ = {
-			isa = PBXGroup;
-			children = (
-				8A74887840803110D14BCCFA33D97368 /* Frameworks */,
-				27AF8C66D8DA54DDFBF50DE9FB008135 /* Support Files */,
-			);
-			name = ZendeskMessagingSDK;
-			path = ZendeskMessagingSDK;
-			sourceTree = "<group>";
-		};
-		27AF8C66D8DA54DDFBF50DE9FB008135 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FE40E1137903D3827E9BEA2A4B0F0314 /* ZendeskMessagingSDK.xcconfig */,
+				67ACF98FFF3294FFC30949470BE94BD5 /* ZendeskMessagingSDK-copy-dsyms.sh */,
+				AA5B2D92E2CD77D0D05D119C3E6F8CA3 /* ZendeskMessagingSDK-xcframeworks.sh */,
+				43532984E496AA61E1247B00A79B4354 /* ZendeskMessagingSDK.debug.xcconfig */,
+				DF21545E553ACB67712FDB855C4E1E6D /* ZendeskMessagingSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ZendeskMessagingSDK";
 			sourceTree = "<group>";
 		};
-		2918463FF4974D55BAB5D3EEA262052C /* ZendeskSupportProvidersSDK */ = {
+		2F048482FEA68B70CF4B8AFCEC13ACE1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3084CF7C0DD1EAF8C36549E9E23F1C40 /* Frameworks */,
-				87B7322B7788106EB3632A1A3AD19577 /* Support Files */,
+				63296717C0A84CB8898A56F8FB0A9253 /* ZendeskCommonUISDK-copy-dsyms.sh */,
+				ED27DE7196C6178C6F19B5F7723AEACA /* ZendeskCommonUISDK-xcframeworks.sh */,
+				32CE4B9B96BC9DCF3F3938EFF0474613 /* ZendeskCommonUISDK.debug.xcconfig */,
+				C39DFC5F33F2958BEF49AD5D75509E57 /* ZendeskCommonUISDK.release.xcconfig */,
 			);
-			name = ZendeskSupportProvidersSDK;
-			path = ZendeskSupportProvidersSDK;
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskCommonUISDK";
 			sourceTree = "<group>";
 		};
-		3084CF7C0DD1EAF8C36549E9E23F1C40 /* Frameworks */ = {
+		39EDC20E7385E04F2670B2709CEF02D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				107AED9635358DAA8DB28F26B065D835 /* SupportProvidersSDK.framework */,
+				0551CCA51A36BA592FAD24C80E4E2592 /* AnswerBotProvidersSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		32EC15EC93591192E794ED40266C6BC6 /* Frameworks */ = {
+		405625096988C3F19DECD946861D9624 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				524D960267483A125BA689DF742813D5 /* AnswerBotProvidersSDK.framework */,
+				BAAB7AD61BA52B37DCBB1943B6254887 /* ZendeskChatSDK-copy-dsyms.sh */,
+				07916702EF63E3F12D9A6728249B2BC0 /* ZendeskChatSDK-xcframeworks.sh */,
+				F66766029392F3E33BB3852DFE5E4B8D /* ZendeskChatSDK.debug.xcconfig */,
+				0B5E4055490C563026B0FA0212FD1060 /* ZendeskChatSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskChatSDK";
+			sourceTree = "<group>";
+		};
+		4339CB93CA7D6D54918685DAB9578730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C2523DE502DC62AC41017F47D512215 /* MessagingAPI.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		35F9000CEE67E248C829B5634A0D39A7 /* Frameworks */ = {
+		4E23D7345F0B932978AC323820CA02B2 /* ZendeskMessagingSDK */ = {
 			isa = PBXGroup;
 			children = (
-				E096C28BF11F4D3F3496FC13089EAE10 /* ChatSDK.framework */,
+				A2598E5182FD0553552E0EE4E899A88E /* Frameworks */,
+				2A07023D2338C5183CBC36D9BE9BF47F /* Support Files */,
+			);
+			name = ZendeskMessagingSDK;
+			path = ZendeskMessagingSDK;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60CDC0CA013EC7079C84BBAAE9871602 /* ZendeskMessagingAPISDK */ = {
+			isa = PBXGroup;
+			children = (
+				4339CB93CA7D6D54918685DAB9578730 /* Frameworks */,
+				B4CFDFD9AA074224A4331BCBBE9F1EF8 /* Support Files */,
+			);
+			name = ZendeskMessagingAPISDK;
+			path = ZendeskMessagingAPISDK;
+			sourceTree = "<group>";
+		};
+		643B6413878BDFADF8EE17B5F0565282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91957B323D38A8934F57DD7A6420F9BB /* CommonUISDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3E81914CD106662BFCCC9B81DAAF149F /* Frameworks */ = {
+		684D95395788AA4EAC09AE3E4E16B1F5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				51329C21772B8ED7679B1623CEBEE40C /* SupportSDK.framework */,
+				99FE1BABB23EF37C7B4D286A95798544 /* ZendeskChatProvidersSDK-copy-dsyms.sh */,
+				3AC54ACAB41DF5BF1CCE05668C85273A /* ZendeskChatProvidersSDK-xcframeworks.sh */,
+				466A5477D090F2EB34BCFF87928ED3AC /* ZendeskChatProvidersSDK.debug.xcconfig */,
+				E38B14D8814A4082968DED1E6640D683 /* ZendeskChatProvidersSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskChatProvidersSDK";
+			sourceTree = "<group>";
+		};
+		68785D3A062F3E591EE6774BCD91FD68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC78CC48F17FB7FECADB56E7F9386DD6 /* SupportSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		613838EA3B9FC9FC417CB582FEC0D84E /* Frameworks */ = {
+		69594265BB5AE66596A20CF5D7FD1909 /* ZendeskSupportSDK */ = {
 			isa = PBXGroup;
 			children = (
-				1DC12428783F9CB347679E399C35BCA3 /* SDKConfigurations.framework */,
+				68785D3A062F3E591EE6774BCD91FD68 /* Frameworks */,
+				2391FDF11121AA62A53614AB2E12B316 /* Support Files */,
+			);
+			name = ZendeskSupportSDK;
+			path = ZendeskSupportSDK;
+			sourceTree = "<group>";
+		};
+		6F586322F127E64CE2BC8FE415A615BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579A8B1EDA53279BA4047602AA98A271 /* ChatProvidersSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6D943353E38480B52F5C06730A066832 /* ZendeskCommonUISDK */ = {
+		734D85F67F073C4EA8B26A29B8664F79 /* ZendeskSDKConfigurationsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D4DD766219A4759AAE9B36E27E70014A /* Frameworks */,
-				E8B4DAD1313164B3EFFCA648B4B9E59D /* Support Files */,
+				73F89E8FDEBD8BB60233D2EAA9FD3AF9 /* Frameworks */,
+				C1AD590A48EAF3DBFAB99259B7690B5A /* Support Files */,
 			);
-			name = ZendeskCommonUISDK;
-			path = ZendeskCommonUISDK;
+			name = ZendeskSDKConfigurationsSDK;
+			path = ZendeskSDKConfigurationsSDK;
+			sourceTree = "<group>";
+		};
+		73F89E8FDEBD8BB60233D2EAA9FD3AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE67BBF8C09D0E1D8FCBA6642CDF5E4 /* SDKConfigurations.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		75731077C44C169E6F422EE765C1D5F6 /* Pods-Zendesk Demo */ = {
@@ -472,6 +597,16 @@
 			path = "Target Support Files/Pods-Zendesk Demo";
 			sourceTree = "<group>";
 		};
+		76D47A9FB1E9D7230A6C44C8A5253D44 /* ZendeskChatProvidersSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6F586322F127E64CE2BC8FE415A615BA /* Frameworks */,
+				684D95395788AA4EAC09AE3E4E16B1F5 /* Support Files */,
+			);
+			name = ZendeskChatProvidersSDK;
+			path = ZendeskChatProvidersSDK;
+			sourceTree = "<group>";
+		};
 		7BD396C561B95BA30180DCF8A28BEC36 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,166 +615,109 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7D7CDE6237E65F3048B58AA606BDDA17 /* ZendeskCoreSDK */ = {
+		83657170165CE19D95CC6C96D2BD2F3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				95B93253EB62C6830298A0226D94B316 /* Frameworks */,
-				EA8570A4EBD71D555648431DC8F228DE /* Support Files */,
+				0BE27173F65022707ED5D7C46AE5011F /* SupportProvidersSDK.xcframework */,
 			);
-			name = ZendeskCoreSDK;
-			path = ZendeskCoreSDK;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		85F206562033B349CA72158FEE8572F6 /* Support Files */ = {
+		8B2A1BDBBEEB27D2BD7434A425D82F0D /* ZendeskCommonUISDK */ = {
 			isa = PBXGroup;
 			children = (
-				6B01A3624589CCBEBA07054125D33690 /* ZendeskAnswerBotProvidersSDK.xcconfig */,
+				643B6413878BDFADF8EE17B5F0565282 /* Frameworks */,
+				2F048482FEA68B70CF4B8AFCEC13ACE1 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ZendeskAnswerBotProvidersSDK";
+			name = ZendeskCommonUISDK;
+			path = ZendeskCommonUISDK;
 			sourceTree = "<group>";
 		};
-		87B7322B7788106EB3632A1A3AD19577 /* Support Files */ = {
+		944827031FBDB8DDEE2AE3C004F24B14 /* ZendeskChatSDK */ = {
 			isa = PBXGroup;
 			children = (
-				B0E98C36E5F873D6BE9C7280C40B7996 /* ZendeskSupportProvidersSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZendeskSupportProvidersSDK";
-			sourceTree = "<group>";
-		};
-		88DB37236D859987227F8D09B9E3BBE4 /* ZendeskChatSDK */ = {
-			isa = PBXGroup;
-			children = (
-				35F9000CEE67E248C829B5634A0D39A7 /* Frameworks */,
-				B1CC6FD6569A9F8B45A45F1CFA3980AD /* Support Files */,
+				B36658A2F2939E7E6B151AC2278EC98D /* Frameworks */,
+				405625096988C3F19DECD946861D9624 /* Support Files */,
 			);
 			name = ZendeskChatSDK;
 			path = ZendeskChatSDK;
 			sourceTree = "<group>";
 		};
-		8A74887840803110D14BCCFA33D97368 /* Frameworks */ = {
+		9E1286D159EDF137948C444C0EC66720 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D484A48355E49F9CA7F019A1FA8F6EC1 /* MessagingSDK.framework */,
+				897B057CE718C26163D692087776189B /* ZendeskCoreSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		95B93253EB62C6830298A0226D94B316 /* Frameworks */ = {
+		A2598E5182FD0553552E0EE4E899A88E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9040984F3E7871E4E0D20A81AE30A9B5 /* ZendeskCoreSDK.framework */,
+				FD403902BDBB723FA2CBC7ECCC6BBA92 /* MessagingSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9884133F5D357B21821A6AF3FE4E4D0B /* ZendeskMessagingAPISDK */ = {
+		B36658A2F2939E7E6B151AC2278EC98D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BAF61B66A0522CB7A3766331652FB2F8 /* Frameworks */,
-				C570F0A3522B6A9A6E62ADB1C9085C8D /* Support Files */,
-			);
-			name = ZendeskMessagingAPISDK;
-			path = ZendeskMessagingAPISDK;
-			sourceTree = "<group>";
-		};
-		A603137913490C28FBC0E32440DBC757 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F74B2FB6DBE49909C3F0AB51C6BA2309 /* ZendeskAnswerBotSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZendeskAnswerBotSDK";
-			sourceTree = "<group>";
-		};
-		AA848651A3049DFD0BBD53F18CB11C25 /* ZendeskAnswerBotSDK */ = {
-			isa = PBXGroup;
-			children = (
-				AF3F77CCE0F5E08F3D587842CEDACB69 /* Frameworks */,
-				A603137913490C28FBC0E32440DBC757 /* Support Files */,
-			);
-			name = ZendeskAnswerBotSDK;
-			path = ZendeskAnswerBotSDK;
-			sourceTree = "<group>";
-		};
-		AF3F77CCE0F5E08F3D587842CEDACB69 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				48D5CD0D3B2925E3453686ACAABA85B0 /* AnswerBotSDK.framework */,
+				5583190043353650F53869DB5372BF4E /* ChatSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AFA09D3AC16C863EEA8D32FE704EDC0A /* Support Files */ = {
+		B4CFDFD9AA074224A4331BCBBE9F1EF8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9F880A9152D3FC49F3266AB5ADFA4133 /* ZendeskChatProvidersSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZendeskChatProvidersSDK";
-			sourceTree = "<group>";
-		};
-		B1CC6FD6569A9F8B45A45F1CFA3980AD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABD2236C72C0A3A96D756BD37A6B3A81 /* ZendeskChatSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZendeskChatSDK";
-			sourceTree = "<group>";
-		};
-		B7E85D4C3A08DF9DD73FE385B23A1478 /* ZendeskAnswerBotProvidersSDK */ = {
-			isa = PBXGroup;
-			children = (
-				32EC15EC93591192E794ED40266C6BC6 /* Frameworks */,
-				85F206562033B349CA72158FEE8572F6 /* Support Files */,
-			);
-			name = ZendeskAnswerBotProvidersSDK;
-			path = ZendeskAnswerBotProvidersSDK;
-			sourceTree = "<group>";
-		};
-		BAF61B66A0522CB7A3766331652FB2F8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9C0D06BAB6B9C62190B4766133956A37 /* MessagingAPI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C570F0A3522B6A9A6E62ADB1C9085C8D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7AFE9D69CCABAB14A7159A69FEC0A7DC /* ZendeskMessagingAPISDK.xcconfig */,
+				627111E7B7BDE189099A7D6003111F87 /* ZendeskMessagingAPISDK-xcframeworks.sh */,
+				4CF7F27DA6E4131D567F2D2CCE26F53A /* ZendeskMessagingAPISDK.debug.xcconfig */,
+				55A4B78610485030DF629E4A65E4EEEE /* ZendeskMessagingAPISDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ZendeskMessagingAPISDK";
 			sourceTree = "<group>";
 		};
-		CB6B2CF27871289CB19DCBE2AFC0EA46 /* ZendeskChatProvidersSDK */ = {
+		C1AD590A48EAF3DBFAB99259B7690B5A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB727BDA66F890507C8063EE5137FDF4 /* Frameworks */,
-				AFA09D3AC16C863EEA8D32FE704EDC0A /* Support Files */,
+				C9FB388D047B238CCBD66A3E12320AF3 /* ZendeskSDKConfigurationsSDK-copy-dsyms.sh */,
+				750BE57DF7C0DB7466DE2D2A9A3F33FA /* ZendeskSDKConfigurationsSDK-xcframeworks.sh */,
+				9057B80417B4530D271FF911649306BE /* ZendeskSDKConfigurationsSDK.debug.xcconfig */,
+				0420ED559B432F59AC4D2FDBFEED2BF9 /* ZendeskSDKConfigurationsSDK.release.xcconfig */,
 			);
-			name = ZendeskChatProvidersSDK;
-			path = ZendeskChatProvidersSDK;
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskSDKConfigurationsSDK";
 			sourceTree = "<group>";
 		};
-		CB727BDA66F890507C8063EE5137FDF4 /* Frameworks */ = {
+		C52892B5949AEC5CC7E516C10E48959D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				354FAAF503356A9346D2C4C542498A57 /* ChatProvidersSDK.framework */,
+				B86E52BB5F016BAD0CE045C4EE76F732 /* ZendeskSupportProvidersSDK-copy-dsyms.sh */,
+				D4698D92E61BCAA8996D28F7A0C7B7DB /* ZendeskSupportProvidersSDK-xcframeworks.sh */,
+				AE4DF740B575D89DD45B20A74F151863 /* ZendeskSupportProvidersSDK.debug.xcconfig */,
+				3B1C3AF0923C212CFD47704F214A4A10 /* ZendeskSupportProvidersSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskSupportProvidersSDK";
+			sourceTree = "<group>";
+		};
+		C835CF529E35B6C058382D5FEFB9A44C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE18202F140A9A5FB96E3BF736A97A1D /* AnswerBotSDK.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C93109550440C144401150717CC594A6 /* ZendeskAnswerBotProvidersSDK */ = {
+			isa = PBXGroup;
+			children = (
+				39EDC20E7385E04F2670B2709CEF02D9 /* Frameworks */,
+				FB0F78653A73071EA20FDA110196C912 /* Support Files */,
+			);
+			name = ZendeskAnswerBotProvidersSDK;
+			path = ZendeskAnswerBotProvidersSDK;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -656,54 +734,53 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4DD766219A4759AAE9B36E27E70014A /* Frameworks */ = {
+		D6807EA4519BFCFB1D75DC568B059B1B /* ZendeskAnswerBotSDK */ = {
 			isa = PBXGroup;
 			children = (
-				5D605D81EC024568B5DF0305788AA702 /* CommonUISDK.framework */,
+				C835CF529E35B6C058382D5FEFB9A44C /* Frameworks */,
+				0AE1C5550956FBC0FA72B60E9B22F0F1 /* Support Files */,
 			);
-			name = Frameworks;
+			name = ZendeskAnswerBotSDK;
+			path = ZendeskAnswerBotSDK;
 			sourceTree = "<group>";
 		};
-		E8B4DAD1313164B3EFFCA648B4B9E59D /* Support Files */ = {
+		EFBD774599073CFCB79415CE147DEB10 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D36FBCEC54F923713D8FC2A10CE1687 /* ZendeskCommonUISDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZendeskCommonUISDK";
-			sourceTree = "<group>";
-		};
-		EA8570A4EBD71D555648431DC8F228DE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1257F004F5C882C4AFCB6C154A4C955 /* ZendeskCoreSDK.xcconfig */,
+				271746D3682AFA4A430C4D606C5FD3B8 /* ZendeskCoreSDK-copy-dsyms.sh */,
+				497AAF4B316B6A8B62BEF9E881F16302 /* ZendeskCoreSDK-xcframeworks.sh */,
+				CF795A5DBCB36966E1E3EE65429CB534 /* ZendeskCoreSDK.debug.xcconfig */,
+				BDEA57C57DB12D9DBC47178DA8023ADC /* ZendeskCoreSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ZendeskCoreSDK";
 			sourceTree = "<group>";
 		};
-		F003B5D8E0C487CAC2C8E8EFF79171E9 /* ZendeskSupportSDK */ = {
+		F59B18905C213FA87E29710F097C2C3E /* ZendeskSupportProvidersSDK */ = {
 			isa = PBXGroup;
 			children = (
-				3E81914CD106662BFCCC9B81DAAF149F /* Frameworks */,
-				12C35C5D6404D7FEB56AF23A5A06B0CF /* Support Files */,
+				83657170165CE19D95CC6C96D2BD2F3C /* Frameworks */,
+				C52892B5949AEC5CC7E516C10E48959D /* Support Files */,
 			);
-			name = ZendeskSupportSDK;
-			path = ZendeskSupportSDK;
+			name = ZendeskSupportProvidersSDK;
+			path = ZendeskSupportProvidersSDK;
 			sourceTree = "<group>";
 		};
-		F2235E01E1C4BA9B4266EB32342FE1F4 /* Support Files */ = {
+		FB0F78653A73071EA20FDA110196C912 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D68E3C9D5A7B877E5C828DB45BA1EC57 /* ZendeskSDKConfigurationsSDK.xcconfig */,
+				0AF41C3DF595DBD87F477DCB95817839 /* ZendeskAnswerBotProvidersSDK-copy-dsyms.sh */,
+				C48BED37F3096DDA1C07EDDE7EAF6A64 /* ZendeskAnswerBotProvidersSDK-xcframeworks.sh */,
+				15637DAECACC021E307D77A241D33733 /* ZendeskAnswerBotProvidersSDK.debug.xcconfig */,
+				91B11C4B54B162AEA344142B9C239FA7 /* ZendeskAnswerBotProvidersSDK.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ZendeskSDKConfigurationsSDK";
+			path = "../Target Support Files/ZendeskAnswerBotProvidersSDK";
 			sourceTree = "<group>";
 		};
 		FBA4D37896BB9609D59C624D3735AA89 /* Products */ = {
@@ -717,11 +794,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E3AB98E0D5870E8CE323F95B96EFE1E3 /* Headers */ = {
+		613AB13745781CF52B661947AFE7711B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF1A4951CEA2B75D8FD85E9D174355E /* Pods-Zendesk Demo-umbrella.h in Headers */,
+				07E6DDA64B63AEE5EDA716A6C50D9550 /* Pods-Zendesk Demo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,27 +807,27 @@
 /* Begin PBXNativeTarget section */
 		67A8A32575F399E2ED62E94835CF2CAF /* Pods-Zendesk Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1DCC7F7C55DE469481C000F8C35A395 /* Build configuration list for PBXNativeTarget "Pods-Zendesk Demo" */;
+			buildConfigurationList = C902646344EC6643CD0606915C822329 /* Build configuration list for PBXNativeTarget "Pods-Zendesk Demo" */;
 			buildPhases = (
-				E3AB98E0D5870E8CE323F95B96EFE1E3 /* Headers */,
-				4D40779A1987A9A2FFF6B76677939CAF /* Sources */,
-				0534F69CBA6C1385033E37DECD2B7DB8 /* Frameworks */,
-				6D40200F933923DEE4975F969EA53635 /* Resources */,
+				613AB13745781CF52B661947AFE7711B /* Headers */,
+				67C16BF0BDA23164EEAC1060A4062774 /* Sources */,
+				C900F8329A15B38B695CDEABB26BC273 /* Frameworks */,
+				7299BB5F96BDCD60D0381C1D64EE83B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6E999D743A83720DE05B90F97D0F890B /* PBXTargetDependency */,
-				948D9C82124D98122322F661766438ED /* PBXTargetDependency */,
-				100B496425AD8A443AB45B9E95F7024D /* PBXTargetDependency */,
-				6BE01719C94DAAB148A1F82A7CEC1593 /* PBXTargetDependency */,
-				E706987E1CF4238A5EE837E56E606983 /* PBXTargetDependency */,
-				96308B904197D54C1FBBCEECB18B96DA /* PBXTargetDependency */,
-				00B6B21AF3CF6109EC4BE377E767EDA4 /* PBXTargetDependency */,
-				8B3E19E7F126AE3FCCF065A0F3E88FAC /* PBXTargetDependency */,
-				1632F72D20245E009EDB57F2D76A3CCB /* PBXTargetDependency */,
-				EA8BAA478508164CCD4DFBD92C74F800 /* PBXTargetDependency */,
-				42E51D4FED28E17896C52037A2FDE8E3 /* PBXTargetDependency */,
+				AB68218EC3DC3BA73D872D1CB8400AD3 /* PBXTargetDependency */,
+				B1EDE91CDE523835503F837749B7D6C9 /* PBXTargetDependency */,
+				B7A409708D7D9897A26E5E0C81215A67 /* PBXTargetDependency */,
+				4C833255350575CFBF5D4134F4B095E3 /* PBXTargetDependency */,
+				0804EF62A6CB64C4ED32FADB20774C5B /* PBXTargetDependency */,
+				773E3325D098DC207E185D615EC2972E /* PBXTargetDependency */,
+				135900B3A64CA2ED79DF68455D9E24C6 /* PBXTargetDependency */,
+				D040CDAB24444EA78B9442BBCFCDDA0D /* PBXTargetDependency */,
+				7CCA2692CFAB6743947AE2502F91BE8F /* PBXTargetDependency */,
+				239759145B084D0DEE1AF5F1BBA8563E /* PBXTargetDependency */,
+				C60250378651CD140CA3F17B54F26D83 /* PBXTargetDependency */,
 			);
 			name = "Pods-Zendesk Demo";
 			productName = "Pods-Zendesk Demo";
@@ -796,7 +873,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D40200F933923DEE4975F969EA53635 /* Resources */ = {
+		7299BB5F96BDCD60D0381C1D64EE83B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -805,166 +882,520 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01B8543CAE75594431440751A54730CE /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotProvidersSDK/ZendeskAnswerBotProvidersSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotProvidersSDK/ZendeskAnswerBotProvidersSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotProvidersSDK/ZendeskAnswerBotProvidersSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EFBFFB6873B44D89E4D1A03FF8E7288 /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotSDK/ZendeskAnswerBotSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotSDK/ZendeskAnswerBotSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotSDK/ZendeskAnswerBotSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		305288EBBA3DDB3551D2B6BD04D5399A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSupportSDK/ZendeskSupportSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSupportSDK/ZendeskSupportSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskSupportSDK/ZendeskSupportSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D154544EEDEF46E97BBCA3C0207F10D /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40F7D9B67CD1D20FFE5A7217A3153E6A /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47B6C2709285561A15B7DFC5E47075CE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD0381C7389FD5B01728CEEFD9B6BF5 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		507A4355B90D30AF96840A790F8FECC3 /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		705827F70AB2A10BE7DBF2119165AB2F /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		891020FCBB8D04E7A6A24C2A1B3B224D /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCoreSDK/ZendeskCoreSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCoreSDK/ZendeskCoreSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskCoreSDK/ZendeskCoreSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946E3A9506DE65840C623F7AF8920401 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotProvidersSDK/ZendeskAnswerBotProvidersSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotProvidersSDK/ZendeskAnswerBotProvidersSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotProvidersSDK/ZendeskAnswerBotProvidersSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F449F062956F120D0ACC7B3E7F9F393 /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFC55C2FB3AD9090A528D28D98AA780 /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSupportProvidersSDK/ZendeskSupportProvidersSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSupportProvidersSDK/ZendeskSupportProvidersSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskSupportProvidersSDK/ZendeskSupportProvidersSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A04E7C417609782CE95915C1DABA99 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotSDK/ZendeskAnswerBotSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotSDK/ZendeskAnswerBotSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskAnswerBotSDK/ZendeskAnswerBotSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A6F1B0F9AFC276ADA33430992F32CB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5CE9D90520AEA0826A0C186010DAEB /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSupportSDK/ZendeskSupportSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSupportSDK/ZendeskSupportSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskSupportSDK/ZendeskSupportSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E32AD10656BD075223B6DEBDC265B5 /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCoreSDK/ZendeskCoreSDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCoreSDK/ZendeskCoreSDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskCoreSDK/ZendeskCoreSDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2FF424489AC186FAA744409EDBA119 /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D786B451189A803EEBCEB9BE3EE46F56 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSupportProvidersSDK/ZendeskSupportProvidersSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSupportProvidersSDK/ZendeskSupportProvidersSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskSupportProvidersSDK/ZendeskSupportProvidersSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E281F7DF8F9F2FA483AAD8E5521AE63D /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingAPISDK/ZendeskMessagingAPISDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingAPISDK/ZendeskMessagingAPISDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskMessagingAPISDK/ZendeskMessagingAPISDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE559E2B1910D79FABAB49C24FFC6873 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		4D40779A1987A9A2FFF6B76677939CAF /* Sources */ = {
+		67C16BF0BDA23164EEAC1060A4062774 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87032C1CA5BDD4BAAF0C30A648B87D0A /* Pods-Zendesk Demo-dummy.m in Sources */,
+				782BA61B2FB000E7857D4706F0A64357 /* Pods-Zendesk Demo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00B6B21AF3CF6109EC4BE377E767EDA4 /* PBXTargetDependency */ = {
+		0804EF62A6CB64C4ED32FADB20774C5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ZendeskMessagingAPISDK;
-			target = D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */;
-			targetProxy = 665C43C8E2D5A1BB03AE50B7D6A1438C /* PBXContainerItemProxy */;
+			name = ZendeskCommonUISDK;
+			target = AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */;
+			targetProxy = A94307FC1D0B5D560B625A0842BA2531 /* PBXContainerItemProxy */;
 		};
-		100B496425AD8A443AB45B9E95F7024D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskChatProvidersSDK;
-			target = CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */;
-			targetProxy = EB5D9670FEB8F73D91DC6EFF9F3771BC /* PBXContainerItemProxy */;
-		};
-		1632F72D20245E009EDB57F2D76A3CCB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskSDKConfigurationsSDK;
-			target = 0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */;
-			targetProxy = 3539D91CF594CE933F4F00766EF6BFD5 /* PBXContainerItemProxy */;
-		};
-		1E7C7138112F0ADA9C1609D20E506322 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskSupportProvidersSDK;
-			target = 7D8830E5D05F68364F3360F2C0DA9813 /* ZendeskSupportProvidersSDK */;
-			targetProxy = 3BA87CBE251F1FF492C7129C7100C4BA /* PBXContainerItemProxy */;
-		};
-		32BB22484C03F2F842BC7882B9904138 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskSDKConfigurationsSDK;
-			target = 0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */;
-			targetProxy = 49DDD6D742BB56798CDB1ED619A3B221 /* PBXContainerItemProxy */;
-		};
-		42E51D4FED28E17896C52037A2FDE8E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskSupportSDK;
-			target = B7FD2D91EB22188E295F7D1E59A7F649 /* ZendeskSupportSDK */;
-			targetProxy = 65ABF3A1D54FD5128FACC72C00D06114 /* PBXContainerItemProxy */;
-		};
-		50E40AAB38A695BD006B4057E07A781F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskSDKConfigurationsSDK;
-			target = 0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */;
-			targetProxy = 4CB6600A96E8C8352A69E7B4FCF3C469 /* PBXContainerItemProxy */;
-		};
-		661F722924D23466041FF5CD6EC42581 /* PBXTargetDependency */ = {
+		0AAED7662BB0DB408BBFA2408DD8F4B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZendeskMessagingSDK;
 			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
-			targetProxy = 40FA3FDC6D50ED3F2DED6BE5DBC1BC8D /* PBXContainerItemProxy */;
+			targetProxy = C86C13E55C4812918C1EC1E1828C9FA9 /* PBXContainerItemProxy */;
 		};
-		675C67889DF375C8D3E7DADB00BB56C1 /* PBXTargetDependency */ = {
+		0C25A109DFE39F6319BCF4EA27767934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingSDK;
+			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
+			targetProxy = CEE26AE0DEE49AA2F51FB3AA8DB77BC1 /* PBXContainerItemProxy */;
+		};
+		135900B3A64CA2ED79DF68455D9E24C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingAPISDK;
+			target = D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */;
+			targetProxy = 4EEB27B5BE1F56401274C164622E7E98 /* PBXContainerItemProxy */;
+		};
+		239759145B084D0DEE1AF5F1BBA8563E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZendeskSupportProvidersSDK;
 			target = 7D8830E5D05F68364F3360F2C0DA9813 /* ZendeskSupportProvidersSDK */;
-			targetProxy = 6FC4697A7B752DE14C03BACEF6DDD6B3 /* PBXContainerItemProxy */;
+			targetProxy = BC53669ACD433395E45C51761DC021A0 /* PBXContainerItemProxy */;
 		};
-		6BE01719C94DAAB148A1F82A7CEC1593 /* PBXTargetDependency */ = {
+		32CBBB81BCE3D6DA6BDDF9AB7951A327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskCoreSDK;
+			target = CB83A11C8D5DDAE33988A94AF1C7653D /* ZendeskCoreSDK */;
+			targetProxy = 73396C1CCB0EDF3A54F371BAC25C4A99 /* PBXContainerItemProxy */;
+		};
+		3FE9AC2B35A521AD91889BE0F72B1C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskSDKConfigurationsSDK;
+			target = 0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */;
+			targetProxy = B3B96BAFBC39AA2826BDB81443C69F2E /* PBXContainerItemProxy */;
+		};
+		487A471C46BF31F16B4A0B9F1078398E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskCommonUISDK;
+			target = AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */;
+			targetProxy = 6D9CC3F121DC53ABA697B67BB0A73D68 /* PBXContainerItemProxy */;
+		};
+		4C833255350575CFBF5D4134F4B095E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZendeskChatSDK;
 			target = 37E8A7EE87D035876454F72D479BE040 /* ZendeskChatSDK */;
-			targetProxy = 803A20E3BEA3BDB6145848B52E7923A9 /* PBXContainerItemProxy */;
+			targetProxy = 86C839C3EE5D60ADFD12E1934664D75F /* PBXContainerItemProxy */;
 		};
-		6E999D743A83720DE05B90F97D0F890B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskAnswerBotProvidersSDK;
-			target = C03644355F64EC4A571948584FB50DAE /* ZendeskAnswerBotProvidersSDK */;
-			targetProxy = 97F5C1777B45E894CB0C5746B0E8E1B5 /* PBXContainerItemProxy */;
-		};
-		7709561765C7DBEAA03B78C58E9BA1F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskCommonUISDK;
-			target = AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */;
-			targetProxy = 68C7CF706B0959028C5BCEF08B72CCD7 /* PBXContainerItemProxy */;
-		};
-		81B4215CB37C905916CBA72E558FE0A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskMessagingSDK;
-			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
-			targetProxy = 0D8749E9662FB1A1B72DB72734D41C25 /* PBXContainerItemProxy */;
-		};
-		8B3E19E7F126AE3FCCF065A0F3E88FAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskMessagingSDK;
-			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
-			targetProxy = 6476CB7BF00DF31E957C63CF542B0A8B /* PBXContainerItemProxy */;
-		};
-		8C46C432749A656526073E797F8D9278 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskMessagingAPISDK;
-			target = D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */;
-			targetProxy = 24E1E6C0CD30FCE4A1388B994456323F /* PBXContainerItemProxy */;
-		};
-		948D9C82124D98122322F661766438ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskAnswerBotSDK;
-			target = C24133A32883D93E31DDD62A77AAF401 /* ZendeskAnswerBotSDK */;
-			targetProxy = 684D5EA7407481DAB45E3B1ABF2D3D6C /* PBXContainerItemProxy */;
-		};
-		96308B904197D54C1FBBCEECB18B96DA /* PBXTargetDependency */ = {
+		773E3325D098DC207E185D615EC2972E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZendeskCoreSDK;
 			target = CB83A11C8D5DDAE33988A94AF1C7653D /* ZendeskCoreSDK */;
-			targetProxy = 1E66DD727D844183A71F41F3A75C3101 /* PBXContainerItemProxy */;
+			targetProxy = 6AE4EB7B18FA3CB4090424EBE8595971 /* PBXContainerItemProxy */;
 		};
-		B7599FA52C86DDAD2776CBE98E25A5C1 /* PBXTargetDependency */ = {
+		7CCA2692CFAB6743947AE2502F91BE8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ZendeskChatProvidersSDK;
-			target = CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */;
-			targetProxy = AB4C7B1386DF0FEC6190F09BA2233E7A /* PBXContainerItemProxy */;
+			name = ZendeskSDKConfigurationsSDK;
+			target = 0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */;
+			targetProxy = 5FC6EDF62335D533FE7CC42B07C90F0A /* PBXContainerItemProxy */;
 		};
-		CA769C0D7768F8B8C13CAD991570796B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskAnswerBotProvidersSDK;
-			target = C03644355F64EC4A571948584FB50DAE /* ZendeskAnswerBotProvidersSDK */;
-			targetProxy = 937AB5A3446BE84018BCBECFC787A6F8 /* PBXContainerItemProxy */;
-		};
-		D53F62608EBD4C910CBE3FC9AFAAD141 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskCoreSDK;
-			target = CB83A11C8D5DDAE33988A94AF1C7653D /* ZendeskCoreSDK */;
-			targetProxy = EF8047F38386AC54624BDC678F454FE1 /* PBXContainerItemProxy */;
-		};
-		DCF6A03649FEE0C494E062D457AC9894 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskMessagingSDK;
-			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
-			targetProxy = 01185DF53D46C961BF8C86CB07B35D6A /* PBXContainerItemProxy */;
-		};
-		E706987E1CF4238A5EE837E56E606983 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZendeskCommonUISDK;
-			target = AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */;
-			targetProxy = 3E70BC6711B688E3B67E5284D83E1491 /* PBXContainerItemProxy */;
-		};
-		EA8BAA478508164CCD4DFBD92C74F800 /* PBXTargetDependency */ = {
+		9DA9991D8CCB5369784BBDA821AE3F0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZendeskSupportProvidersSDK;
 			target = 7D8830E5D05F68364F3360F2C0DA9813 /* ZendeskSupportProvidersSDK */;
-			targetProxy = B55A1E4AF80E87120737A08574D59FD2 /* PBXContainerItemProxy */;
+			targetProxy = CF0E4DCB4F2B4CB5F211F644104FC424 /* PBXContainerItemProxy */;
+		};
+		A12A4CB221B1556E407EEB02179FCA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskChatProvidersSDK;
+			target = CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */;
+			targetProxy = FD4DCF9304330560FA2D920A6A729D30 /* PBXContainerItemProxy */;
+		};
+		A38B4BD32C8FE94329CC68159C33DFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskSupportProvidersSDK;
+			target = 7D8830E5D05F68364F3360F2C0DA9813 /* ZendeskSupportProvidersSDK */;
+			targetProxy = 3CB7549A607244D33FDBB7FE2A4E687A /* PBXContainerItemProxy */;
+		};
+		AB68218EC3DC3BA73D872D1CB8400AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskAnswerBotProvidersSDK;
+			target = C03644355F64EC4A571948584FB50DAE /* ZendeskAnswerBotProvidersSDK */;
+			targetProxy = 1D87BC7BBE39E4FEB143A4A7978C76EE /* PBXContainerItemProxy */;
+		};
+		ADD49C31DEB02FDD3C0C4DCCA10FE3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskAnswerBotProvidersSDK;
+			target = C03644355F64EC4A571948584FB50DAE /* ZendeskAnswerBotProvidersSDK */;
+			targetProxy = F66D45412F2E8B6C4682EB7660553A34 /* PBXContainerItemProxy */;
+		};
+		B1EDE91CDE523835503F837749B7D6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskAnswerBotSDK;
+			target = C24133A32883D93E31DDD62A77AAF401 /* ZendeskAnswerBotSDK */;
+			targetProxy = 432B37110912519065D2259B12040944 /* PBXContainerItemProxy */;
+		};
+		B7A409708D7D9897A26E5E0C81215A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskChatProvidersSDK;
+			target = CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */;
+			targetProxy = 8052531B71D1A32A502E47981B7325E9 /* PBXContainerItemProxy */;
+		};
+		C60250378651CD140CA3F17B54F26D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskSupportSDK;
+			target = B7FD2D91EB22188E295F7D1E59A7F649 /* ZendeskSupportSDK */;
+			targetProxy = 15C3A6943CBF6CE7FCA02DEFED8A4902 /* PBXContainerItemProxy */;
+		};
+		C94B1819BB93455B0569E36BD1601DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingSDK;
+			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
+			targetProxy = AE7943B33793FFD8D005BA394E03F941 /* PBXContainerItemProxy */;
+		};
+		D040CDAB24444EA78B9442BBCFCDDA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingSDK;
+			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
+			targetProxy = E1AAB4C20692F9B649BB8E417A3C03FC /* PBXContainerItemProxy */;
+		};
+		D4E787A20B3FEE63196BF7CE8E72EF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingAPISDK;
+			target = D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */;
+			targetProxy = 6702D96FDC5A4B4427980E135C4BE5D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		021316A7843E4D1F0CFD4F39B03BD29B /* Release */ = {
+		0128FC8454FA8A1CFE948759820BB105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFE9D69CCABAB14A7159A69FEC0A7DC /* ZendeskMessagingAPISDK.xcconfig */;
+			baseConfigurationReference = DF21545E553ACB67712FDB855C4E1E6D /* ZendeskMessagingSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -976,13 +1407,13 @@
 			};
 			name = Release;
 		};
-		02E2AFAB8A66084EA7C19CAE14744AA1 /* Release */ = {
+		1013848156F724088EC58A315A20A40E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74B2FB6DBE49909C3F0AB51C6BA2309 /* ZendeskAnswerBotSDK.xcconfig */;
+			baseConfigurationReference = FBF44C5B172A647C3F3C2F361B5C91A7 /* ZendeskAnswerBotSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -994,107 +1425,13 @@
 			};
 			name = Release;
 		};
-		071C10099AB74C897534795425ADEC6B /* Debug */ = {
+		1537BBA55FC8853D9BBF163FB616A56E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE40E1137903D3827E9BEA2A4B0F0314 /* ZendeskMessagingSDK.xcconfig */;
+			baseConfigurationReference = 0B5E4055490C563026B0FA0212FD1060 /* ZendeskChatSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0E9A664E85BC07418DE074583223D4BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFE9D69CCABAB14A7159A69FEC0A7DC /* ZendeskMessagingAPISDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		25A79373A51AC3AB70B76BF59230E127 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABD2236C72C0A3A96D756BD37A6B3A81 /* ZendeskChatSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1106,69 +1443,12 @@
 			};
 			name = Release;
 		};
-		37A4BEDB9FCBB58D7C626E0E3CEA165F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B49E9D731A206E2756862FD8B7588EF5 /* Pods-Zendesk Demo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47E17A30ADAB0BA10D3C6E7658536CA9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F880A9152D3FC49F3266AB5ADFA4133 /* ZendeskChatProvidersSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4FD0197927E78A4BFC0908C229C12DEB /* Release */ = {
+		183D05ED4DAD89E320CE20D6BCCE894B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C18EDEFADE5710C95F3B151D7B56C0E /* Pods-Zendesk Demo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1201,13 +1481,13 @@
 			};
 			name = Release;
 		};
-		56BF9050B04C25275890426226698BE1 /* Debug */ = {
+		28864584DD36B5E6ADB4D01CEADD994E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0E98C36E5F873D6BE9C7280C40B7996 /* ZendeskSupportProvidersSDK.xcconfig */;
+			baseConfigurationReference = 32CE4B9B96BC9DCF3F3938EFF0474613 /* ZendeskCommonUISDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1218,13 +1498,30 @@
 			};
 			name = Debug;
 		};
-		574F4C963652E9B853C03AEA5963A8B2 /* Release */ = {
+		3F81738660BBBD0C2722BF63468D5B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF4FE8EFF44BB258BA204CF27C6231DA /* ZendeskSupportSDK.xcconfig */;
+			baseConfigurationReference = F66766029392F3E33BB3852DFE5E4B8D /* ZendeskChatSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45E1C66CD808FBCBDA7FBFAD27CEFD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38B14D8814A4082968DED1E6640D683 /* ZendeskChatProvidersSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1236,13 +1533,13 @@
 			};
 			name = Release;
 		};
-		59350AB4577C3703E808C76C1DD5A397 /* Debug */ = {
+		5514C4266E9F39CE7227BA9F5CBF0227 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74B2FB6DBE49909C3F0AB51C6BA2309 /* ZendeskAnswerBotSDK.xcconfig */;
+			baseConfigurationReference = 4CF7F27DA6E4131D567F2D2CCE26F53A /* ZendeskMessagingAPISDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1253,49 +1550,13 @@
 			};
 			name = Debug;
 		};
-		5AB1FA665DCD3CA569781FDD1A8999C2 /* Release */ = {
+		6C4F02E31A8D5B57F92E5E2019D70FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B01A3624589CCBEBA07054125D33690 /* ZendeskAnswerBotProvidersSDK.xcconfig */;
+			baseConfigurationReference = 9057B80417B4530D271FF911649306BE /* ZendeskSDKConfigurationsSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5DB98DFA5D871D9EF7E82E18B2BB2B6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D68E3C9D5A7B877E5C828DB45BA1EC57 /* ZendeskSDKConfigurationsSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		73F8C7CAC884B600FE9C44789E5EE968 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D68E3C9D5A7B877E5C828DB45BA1EC57 /* ZendeskSDKConfigurationsSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1306,166 +1567,11 @@
 			};
 			name = Debug;
 		};
-		7CDF499797E2C5EDB5D618A329CCD595 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B01A3624589CCBEBA07054125D33690 /* ZendeskAnswerBotProvidersSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		83E1D947DEDC65DDE3004BB659124EA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1257F004F5C882C4AFCB6C154A4C955 /* ZendeskCoreSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8AC2D284880C65D4061402030E922132 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D36FBCEC54F923713D8FC2A10CE1687 /* ZendeskCommonUISDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8EA02A0CE78C45E9E137AE81494D87C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF4FE8EFF44BB258BA204CF27C6231DA /* ZendeskSupportSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A6D492CFA63FB3E834AB107386F1FD98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1257F004F5C882C4AFCB6C154A4C955 /* ZendeskCoreSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		ACB4CC0A62C4C549F1DDC218991F7DA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F880A9152D3FC49F3266AB5ADFA4133 /* ZendeskChatProvidersSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B5331D21309CD23368157909E05364E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D36FBCEC54F923713D8FC2A10CE1687 /* ZendeskCommonUISDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D5B9C5EED0ECEC6FA7505C80280C27D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABD2236C72C0A3A96D756BD37A6B3A81 /* ZendeskChatSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E7E4CB389637A6CDE5E3A10E83D00C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE40E1137903D3827E9BEA2A4B0F0314 /* ZendeskMessagingSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1488,6 +1594,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1526,13 +1633,339 @@
 			};
 			name = Debug;
 		};
-		F077573016A2C849AFFA5C2739AE4FBE /* Release */ = {
+		90CC75454412F458C8301431615D3691 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0E98C36E5F873D6BE9C7280C40B7996 /* ZendeskSupportProvidersSDK.xcconfig */;
+			baseConfigurationReference = C91AF46419B6F4D4E86009D9FC2ED7C2 /* ZendeskSupportSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B57CCCFBCD0E39996E27E44F64904C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555FA3AE659C2D363D944366FC41EE4D /* ZendeskSupportSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0255F002674E6949C8046678F6BF2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1C3AF0923C212CFD47704F214A4A10 /* ZendeskSupportProvidersSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B96A0BC92CD7E1A07550AFEEA4B636B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15637DAECACC021E307D77A241D33733 /* ZendeskAnswerBotProvidersSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3CF503A6E6C15E43D03B790C58181BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEA57C57DB12D9DBC47178DA8023ADC /* ZendeskCoreSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D256B739A60F4032CC18A229F5FCF4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B11C4B54B162AEA344142B9C239FA7 /* ZendeskAnswerBotProvidersSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D56CCAE722C734EB7D6EC4F216A1F20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4DF740B575D89DD45B20A74F151863 /* ZendeskSupportProvidersSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5BB3383B6A80D57BCDDE1F2BFB4E9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49E9D731A206E2756862FD8B7588EF5 /* Pods-Zendesk Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAEC4C2814A35323AC421D3A68EF6154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43532984E496AA61E1247B00A79B4354 /* ZendeskMessagingSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0B364320C61BB7C466EB7365E1CF395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8CC729A2FC86FB4621496CCD73F806 /* ZendeskAnswerBotSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E468ED201D830EE8C91A113A0F5F0C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0420ED559B432F59AC4D2FDBFEED2BF9 /* ZendeskSDKConfigurationsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBA93A5DD8CD5DC75B3BC46A64FA4E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF795A5DBCB36966E1E3EE65429CB534 /* ZendeskCoreSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8178BB521C423E9D16D3F0D2C050F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39DFC5F33F2958BEF49AD5D75509E57 /* ZendeskCommonUISDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8F145DABC0358C1D219F3947FECBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466A5477D090F2EB34BCFF87928ED3AC /* ZendeskChatProvidersSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F689C17275E392DB5028F1625CAA9F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A4B78610485030DF629E4A65E4EEEE /* ZendeskMessagingAPISDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1547,38 +1980,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BCE1F70CF10885C91B8243B97A21071 /* Build configuration list for PBXAggregateTarget "ZendeskAnswerBotProvidersSDK" */ = {
+		0FA48E05894212F917D447B3BCC51DD6 /* Build configuration list for PBXAggregateTarget "ZendeskCoreSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CDF499797E2C5EDB5D618A329CCD595 /* Debug */,
-				5AB1FA665DCD3CA569781FDD1A8999C2 /* Release */,
+				EBA93A5DD8CD5DC75B3BC46A64FA4E01 /* Debug */,
+				C3CF503A6E6C15E43D03B790C58181BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33D1C87A3647A0C552B6FACF69B8C8FF /* Build configuration list for PBXAggregateTarget "ZendeskChatSDK" */ = {
+		1B69EF80608B3584B4D9586760C55A77 /* Build configuration list for PBXAggregateTarget "ZendeskSupportSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5B9C5EED0ECEC6FA7505C80280C27D5 /* Debug */,
-				25A79373A51AC3AB70B76BF59230E127 /* Release */,
+				90CC75454412F458C8301431615D3691 /* Debug */,
+				9B57CCCFBCD0E39996E27E44F64904C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		389CABBC252136DB4A66886BCE22D1A6 /* Build configuration list for PBXAggregateTarget "ZendeskSupportSDK" */ = {
+		1B91A314ED9F97588BD7B41945587D63 /* Build configuration list for PBXAggregateTarget "ZendeskChatProvidersSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EA02A0CE78C45E9E137AE81494D87C9 /* Debug */,
-				574F4C963652E9B853C03AEA5963A8B2 /* Release */,
+				ED8F145DABC0358C1D219F3947FECBE3 /* Debug */,
+				45E1C66CD808FBCBDA7FBFAD27CEFD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		421D072A7823C2FDB21453FFD428616B /* Build configuration list for PBXAggregateTarget "ZendeskAnswerBotSDK" */ = {
+		20CDB09A1C0DB4E056EEDBF4EB2CED90 /* Build configuration list for PBXAggregateTarget "ZendeskChatSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59350AB4577C3703E808C76C1DD5A397 /* Debug */,
-				02E2AFAB8A66084EA7C19CAE14744AA1 /* Release */,
+				3F81738660BBBD0C2722BF63468D5B2D /* Debug */,
+				1537BBA55FC8853D9BBF163FB616A56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EBEAC5E28B9A9D1907C7F2DECD9B69 /* Build configuration list for PBXAggregateTarget "ZendeskAnswerBotSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B364320C61BB7C466EB7365E1CF395 /* Debug */,
+				1013848156F724088EC58A315A20A40E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1586,80 +2028,71 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
-				1422B121EAEAEA11307496903FA623C6 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C080A7646A1E117D64C28CEF4D4CE3F /* Build configuration list for PBXAggregateTarget "ZendeskCoreSDK" */ = {
+		92DAA36A4D8CE287D51A4E92A0F58D5C /* Build configuration list for PBXAggregateTarget "ZendeskCommonUISDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83E1D947DEDC65DDE3004BB659124EA4 /* Debug */,
-				A6D492CFA63FB3E834AB107386F1FD98 /* Release */,
+				28864584DD36B5E6ADB4D01CEADD994E /* Debug */,
+				ED8178BB521C423E9D16D3F0D2C050F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5293D7DCAEBB523E068A0704623E0EE3 /* Build configuration list for PBXAggregateTarget "ZendeskChatProvidersSDK" */ = {
+		B9BF24FD13C9181E855B1A839851B0BB /* Build configuration list for PBXAggregateTarget "ZendeskMessagingSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACB4CC0A62C4C549F1DDC218991F7DA2 /* Debug */,
-				47E17A30ADAB0BA10D3C6E7658536CA9 /* Release */,
+				DAEC4C2814A35323AC421D3A68EF6154 /* Debug */,
+				0128FC8454FA8A1CFE948759820BB105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97746C51687FF62057EA86602F8707C5 /* Build configuration list for PBXAggregateTarget "ZendeskMessagingAPISDK" */ = {
+		BE4ABB2AA3923623C0290766147F0722 /* Build configuration list for PBXAggregateTarget "ZendeskSupportProvidersSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E9A664E85BC07418DE074583223D4BC /* Debug */,
-				021316A7843E4D1F0CFD4F39B03BD29B /* Release */,
+				D56CCAE722C734EB7D6EC4F216A1F20B /* Debug */,
+				A0255F002674E6949C8046678F6BF2C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B70143F040119BE6253279360A82072 /* Build configuration list for PBXAggregateTarget "ZendeskCommonUISDK" */ = {
+		C902646344EC6643CD0606915C822329 /* Build configuration list for PBXNativeTarget "Pods-Zendesk Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5331D21309CD23368157909E05364E4 /* Debug */,
-				8AC2D284880C65D4061402030E922132 /* Release */,
+				D5BB3383B6A80D57BCDDE1F2BFB4E9FD /* Debug */,
+				183D05ED4DAD89E320CE20D6BCCE894B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4A858CB7BB3B0D91CAFFC3F7FF871DE /* Build configuration list for PBXAggregateTarget "ZendeskSDKConfigurationsSDK" */ = {
+		CFA0804E174A8452A61F5E14F2BF083C /* Build configuration list for PBXAggregateTarget "ZendeskAnswerBotProvidersSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73F8C7CAC884B600FE9C44789E5EE968 /* Debug */,
-				5DB98DFA5D871D9EF7E82E18B2BB2B6E /* Release */,
+				B96A0BC92CD7E1A07550AFEEA4B636B6 /* Debug */,
+				D256B739A60F4032CC18A229F5FCF4A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1DCC7F7C55DE469481C000F8C35A395 /* Build configuration list for PBXNativeTarget "Pods-Zendesk Demo" */ = {
+		E1AD1BDDD8A6F735B9586B0C49AF88AA /* Build configuration list for PBXAggregateTarget "ZendeskMessagingAPISDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37A4BEDB9FCBB58D7C626E0E3CEA165F /* Debug */,
-				4FD0197927E78A4BFC0908C229C12DEB /* Release */,
+				5514C4266E9F39CE7227BA9F5CBF0227 /* Debug */,
+				F689C17275E392DB5028F1625CAA9F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C257921D066B7C7F5CA5C75A93B01DA8 /* Build configuration list for PBXAggregateTarget "ZendeskSupportProvidersSDK" */ = {
+		E1F89A65D011D32E8F84F006A47A7834 /* Build configuration list for PBXAggregateTarget "ZendeskSDKConfigurationsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56BF9050B04C25275890426226698BE1 /* Debug */,
-				F077573016A2C849AFFA5C2739AE4FBE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C60A29B51C81F9F6BB30EC818D277365 /* Build configuration list for PBXAggregateTarget "ZendeskMessagingSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				071C10099AB74C897534795425ADEC6B /* Debug */,
-				E7E4CB389637A6CDE5E3A10E83D00C6B /* Release */,
+				6C4F02E31A8D5B57F92E5E2019D70FE9 /* Debug */,
+				E468ED201D830EE8C91A113A0F5F0C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -127,6 +127,10 @@ Do not change any other file other than `Configuration.swift`, `help_center_arti
 
 ## CHANGELOG
 
+### 2020-02-23
+
+- SDKs updated to their latest versions
+
 ### 2020-10-07
 
 - New SDKs updates
