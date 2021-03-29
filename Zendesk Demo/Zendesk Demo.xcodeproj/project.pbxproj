@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		33135672252DC6FC007A19DA /* ZendeskChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33135671252DC6FC007A19DA /* ZendeskChat.swift */; };
 		331D740B23CC81EF0031DB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D740A23CC81EF0031DB42 /* AppDelegate.swift */; };
-		331D740D23CC81EF0031DB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D740C23CC81EF0031DB42 /* SceneDelegate.swift */; };
 		331D740F23CC81EF0031DB42 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D740E23CC81EF0031DB42 /* HomeController.swift */; };
 		331D741123CC81EF0031DB42 /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D741023CC81EF0031DB42 /* HelpController.swift */; };
 		331D741423CC81EF0031DB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D741223CC81EF0031DB42 /* Main.storyboard */; };
@@ -17,15 +16,15 @@
 		331D741923CC81F10031DB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D741723CC81F10031DB42 /* LaunchScreen.storyboard */; };
 		33A7A48A23CE140D00CCE25E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7A48923CE140D00CCE25E /* Configuration.swift */; };
 		33D497DE23CCB98500F1AA96 /* help_center_article_style.css in Resources */ = {isa = PBXBuildFile; fileRef = 33D497DD23CCB98500F1AA96 /* help_center_article_style.css */; };
-		C9D24901F17A8AA73013F3E0 /* Pods_Zendesk_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD83A2E519F2BA6329AE32EA /* Pods_Zendesk_Demo.framework */; };
+		B593C188DEE52AED7DA6559C /* Pods_Zendesk_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DD487F407E30E44B20DA77 /* Pods_Zendesk_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		297C4F6E44193967251FF393 /* Pods-Zendesk Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zendesk Demo.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		09DD487F407E30E44B20DA77 /* Pods_Zendesk_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zendesk_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		325D29BA196F54F6B19C3B94 /* Pods-Zendesk Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zendesk Demo.release.xcconfig"; path = "Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo.release.xcconfig"; sourceTree = "<group>"; };
 		33135671252DC6FC007A19DA /* ZendeskChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZendeskChat.swift; sourceTree = "<group>"; };
 		331D740723CC81EF0031DB42 /* Zendesk Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zendesk Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		331D740A23CC81EF0031DB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		331D740C23CC81EF0031DB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		331D740E23CC81EF0031DB42 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		331D741023CC81EF0031DB42 /* HelpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
 		331D741323CC81EF0031DB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,8 +33,7 @@
 		331D741A23CC81F10031DB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33A7A48923CE140D00CCE25E /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		33D497DD23CCB98500F1AA96 /* help_center_article_style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = help_center_article_style.css; sourceTree = "<group>"; };
-		688FBF4D9E9D9B4B813A59F2 /* Pods-Zendesk Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zendesk Demo.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo.release.xcconfig"; sourceTree = "<group>"; };
-		BD83A2E519F2BA6329AE32EA /* Pods_Zendesk_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zendesk_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05279DCF7D2A20B1FFD1B44 /* Pods-Zendesk Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zendesk Demo.debug.xcconfig"; path = "Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9D24901F17A8AA73013F3E0 /* Pods_Zendesk_Demo.framework in Frameworks */,
+				B593C188DEE52AED7DA6559C /* Pods_Zendesk_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +53,8 @@
 			children = (
 				331D740923CC81EF0031DB42 /* Zendesk Demo */,
 				331D740823CC81EF0031DB42 /* Products */,
-				D1CDD59DE86F40BE69710C1C /* Pods */,
-				4A7FE2984EAE515F9C4E20DD /* Frameworks */,
+				7B903B23C0FC5AF24BDD2AE3 /* Pods */,
+				8A2B0B16F087E400583F86A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +71,6 @@
 			children = (
 				33A7A48923CE140D00CCE25E /* Configuration.swift */,
 				331D740A23CC81EF0031DB42 /* AppDelegate.swift */,
-				331D740C23CC81EF0031DB42 /* SceneDelegate.swift */,
 				331D740E23CC81EF0031DB42 /* HomeController.swift */,
 				331D741023CC81EF0031DB42 /* HelpController.swift */,
 				33135671252DC6FC007A19DA /* ZendeskChat.swift */,
@@ -86,21 +83,22 @@
 			path = "Zendesk Demo";
 			sourceTree = "<group>";
 		};
-		4A7FE2984EAE515F9C4E20DD /* Frameworks */ = {
+		7B903B23C0FC5AF24BDD2AE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD83A2E519F2BA6329AE32EA /* Pods_Zendesk_Demo.framework */,
+				E05279DCF7D2A20B1FFD1B44 /* Pods-Zendesk Demo.debug.xcconfig */,
+				325D29BA196F54F6B19C3B94 /* Pods-Zendesk Demo.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
-		D1CDD59DE86F40BE69710C1C /* Pods */ = {
+		8A2B0B16F087E400583F86A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				297C4F6E44193967251FF393 /* Pods-Zendesk Demo.debug.xcconfig */,
-				688FBF4D9E9D9B4B813A59F2 /* Pods-Zendesk Demo.release.xcconfig */,
+				09DD487F407E30E44B20DA77 /* Pods_Zendesk_Demo.framework */,
 			);
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,11 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331D741D23CC81F10031DB42 /* Build configuration list for PBXNativeTarget "Zendesk Demo" */;
 			buildPhases = (
-				AB8F517A8B21393490F55223 /* [CP] Check Pods Manifest.lock */,
+				DEB2D0F9E5F7DA8CFD210C29 /* [CP] Check Pods Manifest.lock */,
 				331D740323CC81EF0031DB42 /* Sources */,
 				331D740423CC81EF0031DB42 /* Frameworks */,
 				331D740523CC81EF0031DB42 /* Resources */,
-				3A4163E173580B448383BA16 /* [CP] Embed Pods Frameworks */,
+				A8A025A613D35203AED8300D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "EMEA Presales";
 				TargetAttributes = {
 					331D740623CC81EF0031DB42 = {
@@ -173,7 +171,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A4163E173580B448383BA16 /* [CP] Embed Pods Frameworks */ = {
+		A8A025A613D35203AED8300D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,7 +188,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB8F517A8B21393490F55223 /* [CP] Check Pods Manifest.lock */ = {
+		DEB2D0F9E5F7DA8CFD210C29 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,7 +222,6 @@
 				331D740F23CC81EF0031DB42 /* HomeController.swift in Sources */,
 				33135672252DC6FC007A19DA /* ZendeskChat.swift in Sources */,
 				331D740B23CC81EF0031DB42 /* AppDelegate.swift in Sources */,
-				331D740D23CC81EF0031DB42 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +273,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -300,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -336,6 +334,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -354,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -366,11 +365,12 @@
 		};
 		331D741E23CC81F10031DB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 297C4F6E44193967251FF393 /* Pods-Zendesk Demo.debug.xcconfig */;
+			baseConfigurationReference = E05279DCF7D2A20B1FFD1B44 /* Pods-Zendesk Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3W6W6GLKF;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "Zendesk Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -380,17 +380,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zendesk.presales.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		331D741F23CC81F10031DB42 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 688FBF4D9E9D9B4B813A59F2 /* Pods-Zendesk Demo.release.xcconfig */;
+			baseConfigurationReference = 325D29BA196F54F6B19C3B94 /* Pods-Zendesk Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3W6W6GLKF;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "Zendesk Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -400,7 +401,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zendesk.presales.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

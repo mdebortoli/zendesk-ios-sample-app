@@ -1,0 +1,304 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TalkSDK
+import AVFoundation
+import AVKit
+import Foundation
+import MediaPlayer
+import Swift
+@_exported import TalkSDK
+import TwilioVoice
+import UIKit.UIActivityIndicatorView
+import UIKit.UIApplication
+import UIKit.UIColor
+import UIKit.UIDevice
+import UIKit
+import UIKit.UIView
+import UIKit.UIViewController
+import ZendeskCoreSDK
+public protocol TalkScreenProvider : AnyObject {
+  typealias CallScreenViewController = (UIKit.UIViewController & TalkSDK.CallScreen)
+  typealias CallConfigurationScreenViewController = (UIKit.UIViewController & TalkSDK.CallConfigurationScreen)
+  func makeCallConfigurationViewController(for digitalLine: Swift.String) -> Self.CallConfigurationScreenViewController
+  func makeCallViewController(with callData: TalkSDK.CallData, callDidFinishHandler: @escaping (Self.CallScreenViewController, TalkSDK.CallSummary) -> Swift.Void) -> Self.CallScreenViewController
+}
+public enum AgentStatusError : Swift.Int, Swift.Error {
+  case digitalLineNotFound
+  case unknown
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol LineStatus {
+  @objc var agentAvailable: Swift.Bool { get }
+  @objc var recordingConsent: TalkSDK.RecordingConsent { get }
+}
+@objc public enum TalkCallError : Swift.Int, Swift.Error {
+  case digitalLineNotFound
+  case networkError
+  case unauthorized
+  case unknown
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+}
+@objc public protocol TalkCall : AnyObject {
+  @objc var muted: Swift.Bool { get set }
+  @objc var duration: Foundation.TimeInterval { get }
+  @objc func disconnect()
+  @objc var audioOutput: TalkSDK.AudioOutput { get set }
+  @objc var audioRouting: TalkSDK.AudioRoutingOption? { get set }
+  @objc var availableAudioRoutingOptions: [TalkSDK.AudioRoutingOption] { get }
+}
+public protocol TalkCoreProvider : AnyObject {
+  typealias LineStatusResult = Swift.Result<TalkSDK.LineStatus, TalkSDK.AgentStatusError>
+  typealias StatusChangeHandler = (TalkSDK.CallStatus, TalkSDK.TalkCallError?) -> Swift.Void
+  func lineStatus(digitalLine: TalkSDK.DigitalLine, completion: @escaping (Self.LineStatusResult) -> Swift.Void)
+  func call(callData: TalkSDK.CallData, statusChangeHandler: @escaping Self.StatusChangeHandler) -> TalkSDK.TalkCall
+}
+@_hasMissingDesignatedInitializers @objc(ZDKTalk) final public class Talk : ObjectiveC.NSObject {
+  @objc convenience public init(zendesk: ZendeskCoreSDK.Zendesk)
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension Talk : TalkSDK.TalkFlowProvider {
+  @objc(startCallToDigitalLine:) final public func startCall(to digitalLine: TalkSDK.DigitalLine)
+}
+extension Talk : TalkSDK.TalkScreenProvider {
+  @objc final public func makeCallConfigurationViewController(for digitalLine: Swift.String) -> TalkSDK.Talk.CallConfigurationScreenViewController
+  final public func makeCallViewController(with callData: TalkSDK.CallData, callDidFinishHandler: @escaping (TalkSDK.Talk.CallScreenViewController, TalkSDK.CallSummary) -> Swift.Void) -> TalkSDK.Talk.CallScreenViewController
+}
+extension Talk : TalkSDK.TalkCoreProvider {
+  final public func lineStatus(digitalLine: TalkSDK.DigitalLine, completion: @escaping (Swift.Result<TalkSDK.LineStatus, TalkSDK.AgentStatusError>) -> Swift.Void)
+  final public func call(callData: TalkSDK.CallData, statusChangeHandler: @escaping TalkSDK.Talk.StatusChangeHandler) -> TalkSDK.TalkCall
+}
+extension Talk {
+  @available(swift, obsoleted: 1.0)
+  @objc final public func lineStatus(digitalLine: TalkSDK.DigitalLine, completion: @escaping (TalkSDK.LineStatus?, Foundation.NSError?) -> Swift.Void)
+  @available(swift, obsoleted: 1.0)
+  @objc final public func call(callData: TalkSDK.CallData, statusChangeHandler: @escaping (TalkSDK.CallStatus, Foundation.NSError?) -> Swift.Void) -> TalkSDK.TalkCall
+  @available(swift, obsoleted: 1.0)
+  @objc final public func makeCallViewController(with callData: TalkSDK.CallData, callDidFinishHandler: @escaping (Foundation.TimeInterval, Foundation.NSError?) -> Swift.Void) -> UIKit.UIViewController & TalkSDK.CallScreen
+}
+@objc public enum AudioOutput : Swift.Int {
+  case speaker
+  case headset
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers final public class CallViewController : UIKit.UIViewController, TalkSDK.CallScreen {
+  @objc final public var callLoadingView: UIKit.UIView & TalkSDK.CallLoadingView {
+    @objc get
+  }
+  @objc final public var callErrorView: UIKit.UIView & TalkSDK.CallErrorView {
+    @objc get
+  }
+  @objc final public var callTimerView: UIKit.UIView & TalkSDK.CallTimerView {
+    @objc get
+  }
+  @objc final public var callButtonsView: UIKit.UIView & TalkSDK.CallButtonsView {
+    @objc get
+  }
+  convenience public init(callData: TalkSDK.CallData, talk: TalkSDK.Talk)
+  @objc override final public func viewDidLoad()
+  @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc final public func disconnect()
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
+}
+@available(iOS 11.0, *)
+extension CallViewController : AVKit.AVRoutePickerViewDelegate {
+  @objc final public func routePickerViewWillBeginPresentingRoutes(_ routePickerView: AVKit.AVRoutePickerView)
+  @objc final public func routePickerViewDidEndPresentingRoutes(_ routePickerView: AVKit.AVRoutePickerView)
+}
+@objc public protocol CallLoadingView {
+  @objc var titleLabel: UIKit.UILabel! { get }
+  @objc var activityIndicator: UIKit.UIActivityIndicatorView! { get }
+}
+@objc public protocol CallErrorView {
+  @objc var titleLabel: UIKit.UILabel! { get }
+  @objc var messageLabel: UIKit.UILabel! { get }
+  @objc var retryButton: UIKit.UIButton! { get }
+  @objc var cancelButton: UIKit.UIButton! { get }
+}
+@objc public protocol CallTimerView {
+  @objc var titleLabel: UIKit.UILabel! { get }
+  @objc var timerLabel: UIKit.UILabel! { get }
+}
+@objc public protocol CallButtonsView {
+  @objc var speakerButton: UIKit.UIButton! { get }
+  @objc var speakerTitleLabel: UIKit.UILabel! { get }
+  @objc var hangUpButton: UIKit.UIButton! { get }
+  @objc var hangUpTitleLabel: UIKit.UILabel! { get }
+  @objc var muteButton: UIKit.UIButton! { get }
+  @objc var muteTitleLabel: UIKit.UILabel! { get }
+}
+@objc public protocol CallScreen {
+  @objc var callLoadingView: UIKit.UIView & TalkSDK.CallLoadingView { get }
+  @objc var callErrorView: UIKit.UIView & TalkSDK.CallErrorView { get }
+  @objc var callTimerView: UIKit.UIView & TalkSDK.CallTimerView { get }
+  @objc var callButtonsView: UIKit.UIView & TalkSDK.CallButtonsView { get }
+  @objc func disconnect()
+}
+@objc public enum AudioRoutingType : Swift.Int {
+  case builtIn
+  case bluetooth
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol AudioRoutingOption {
+  @objc var name: Swift.String { get }
+  @objc var type: TalkSDK.AudioRoutingType { get }
+}
+extension AVAudioSessionPortDescription : TalkSDK.AudioRoutingOption {
+  @objc dynamic public var name: Swift.String {
+    @objc get
+  }
+  @objc dynamic public var type: TalkSDK.AudioRoutingType {
+    @objc get
+  }
+}
+extension AgentStatusError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@objc public enum CallStatus : Swift.Int {
+  case connecting
+  case connected
+  case disconnected
+  case failed
+  case reconnecting
+  case reconnected
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(ZDKTalkCallData) final public class TalkCallData : ObjectiveC.NSObject, TalkSDK.CallData {
+  @objc final public let digitalLine: TalkSDK.DigitalLine
+  @objc final public let recordingConsentAnswer: TalkSDK.RecordingConsentAnswer
+  @objc public init(digitalLine: TalkSDK.DigitalLine, recordingConsentAnswer: TalkSDK.RecordingConsentAnswer)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum RecordingConsent : Swift.Int {
+  case optIn
+  case optOut
+  case unknown
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum RecordingConsentAnswer : Swift.Int {
+  case optedIn
+  case optedOut
+  case unknown
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol CallSummary {
+  var duration: Foundation.TimeInterval { get }
+  var error: TalkSDK.TalkCallError? { get }
+}
+public typealias DigitalLine = Swift.String
+extension TalkCallError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public protocol TalkFlowProvider : AnyObject {
+  func startCall(to digitalLine: TalkSDK.DigitalLine)
+}
+@objc public protocol CallData {
+  @objc var digitalLine: TalkSDK.DigitalLine { get }
+  @objc var recordingConsentAnswer: TalkSDK.RecordingConsentAnswer { get }
+}
+@objc public protocol MicrophonePermissionScreen {
+  @objc var backgroundColor: UIKit.UIColor? { get set }
+  @objc var titleLabel: UIKit.UILabel! { get }
+  @objc var messageLabel: UIKit.UILabel! { get }
+  @objc var allowButton: UIKit.UIButton! { get }
+  @objc var cancelButton: UIKit.UIButton! { get }
+}
+@objc public protocol CallConfigurationScreen {
+  typealias CancelRequestHandler = () -> Swift.Void
+  typealias StartCallHandler = (TalkSDK.RecordingConsentAnswer) -> Swift.Void
+  @objc var microphoneScreen: TalkSDK.MicrophonePermissionScreen { get }
+  @objc var recordingConsentScreen: TalkSDK.RecordingConsentScreen { get }
+  @objc var cancelHandler: Self.CancelRequestHandler? { get set }
+  @objc var startCallHandler: Self.StartCallHandler? { get set }
+}
+@objc @_hasMissingDesignatedInitializers final public class CallConfigurationViewController : UIKit.UIViewController, TalkSDK.CallConfigurationScreen {
+  @objc final public var microphoneScreen: TalkSDK.MicrophonePermissionScreen {
+    @objc get
+  }
+  @objc final public var recordingConsentScreen: TalkSDK.RecordingConsentScreen {
+    @objc get
+  }
+  @objc final public var cancelHandler: TalkSDK.CallConfigurationViewController.CancelRequestHandler? {
+    @objc get
+    @objc set
+  }
+  @objc final public var startCallHandler: TalkSDK.CallConfigurationViewController.StartCallHandler? {
+    @objc get
+    @objc set
+  }
+  convenience public init(digitalLine: TalkSDK.DigitalLine, talk: TalkSDK.Talk)
+  @objc override final public func viewDidLoad()
+  @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
+}
+@objc public protocol RecordingConsentScreen {
+  @objc var backgroundColor: UIKit.UIColor? { get set }
+  @objc var titleLabel: UIKit.UILabel! { get }
+  @objc var messageLabel: UIKit.UILabel! { get }
+  @objc var startCallButton: UIKit.UIButton! { get }
+  @objc var cancelButton: UIKit.UIButton! { get }
+  @objc var consentSwitchView: UIKit.UIView! { get }
+  @objc var consentSwitch: UIKit.UISwitch! { get }
+  @objc var consentDescriptionLabel: UIKit.UILabel! { get }
+  @objc var activityIndicatorView: UIKit.UIActivityIndicatorView! { get }
+}
+extension TalkSDK.AgentStatusError : Swift.Equatable {}
+extension TalkSDK.AgentStatusError : Swift.Hashable {}
+extension TalkSDK.AgentStatusError : Swift.RawRepresentable {}
+extension TalkSDK.TalkCallError : Swift.Equatable {}
+extension TalkSDK.TalkCallError : Swift.Hashable {}
+extension TalkSDK.TalkCallError : Swift.RawRepresentable {}
+extension TalkSDK.AudioOutput : Swift.Equatable {}
+extension TalkSDK.AudioOutput : Swift.Hashable {}
+extension TalkSDK.AudioOutput : Swift.RawRepresentable {}
+extension TalkSDK.AudioRoutingType : Swift.Equatable {}
+extension TalkSDK.AudioRoutingType : Swift.Hashable {}
+extension TalkSDK.AudioRoutingType : Swift.RawRepresentable {}
+extension TalkSDK.CallStatus : Swift.Equatable {}
+extension TalkSDK.CallStatus : Swift.Hashable {}
+extension TalkSDK.CallStatus : Swift.RawRepresentable {}
+extension TalkSDK.RecordingConsent : Swift.Equatable {}
+extension TalkSDK.RecordingConsent : Swift.Hashable {}
+extension TalkSDK.RecordingConsent : Swift.RawRepresentable {}
+extension TalkSDK.RecordingConsentAnswer : Swift.Equatable {}
+extension TalkSDK.RecordingConsentAnswer : Swift.Hashable {}
+extension TalkSDK.RecordingConsentAnswer : Swift.RawRepresentable {}

@@ -10,5 +10,6 @@ target 'Zendesk Demo' do
   pod 'ZendeskChatSDK'  
   pod 'ZendeskSupportSDK'
   pod 'ZendeskAnswerBotSDK'
+  pod 'ZendeskTalkSDK'
 
 end

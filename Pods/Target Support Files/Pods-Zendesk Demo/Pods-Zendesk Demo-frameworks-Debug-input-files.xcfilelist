@@ -1,4 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-Zendesk Demo/Pods-Zendesk Demo-frameworks.sh
+${PODS_ROOT}/TwilioVoice/Build/iOS/TwilioVoice.framework
+${PODS_ROOT}/ZendeskTalkSDK/TalkSDK.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AnswerBotProvidersSDK/AnswerBotProvidersSDK.framework/AnswerBotProvidersSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AnswerBotSDK/AnswerBotSDK.framework/AnswerBotSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/ChatProvidersSDK/ChatProvidersSDK.framework/ChatProvidersSDK

@@ -13,21 +13,24 @@
 */
 
 import UIKit
+import ZendeskCoreSDK
 import AnswerBotProvidersSDK
 import AnswerBotSDK
 import MessagingSDK
-import MessagingAPI
 import SDKConfigurations
 import SupportSDK
 import ChatSDK
 import ChatProvidersSDK
-import MessagingSDK
+import TalkSDK
 
 class HelpController: UIViewController, UINavigationControllerDelegate {
+    
+    var talk: Talk?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        talk = Talk(zendesk: Zendesk.instance!)
     }
 
     @IBAction func HcButton(_ sender: UIButton) {
@@ -75,8 +78,9 @@ class HelpController: UIViewController, UINavigationControllerDelegate {
     }
 
     @IBAction func CallUs(_ sender: UIButton) {
-        guard let number = URL(string: "tel://" + config.identityPhone) else { return }
-        UIApplication.shared.open(number, options: [:], completionHandler: nil)
+        guard let talk = talk else { return }
+
+        talk.startCall(to: config.digitalLine)
     }
 
 

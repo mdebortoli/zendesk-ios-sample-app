@@ -1,0 +1,11 @@
+framework module TalkSDK {
+  umbrella header "TalkSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module TalkSDK.Swift {
+    header "TalkSDK-Swift.h"
+    requires objc
+}

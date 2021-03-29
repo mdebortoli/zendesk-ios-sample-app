@@ -1,6 +1,6 @@
 # Zendesk iOS Sample Mobile App
 
-This project is intended to show how the Zendesk SDKs are integrated to an iOS app, and allow you to create a branded and customized iOS simple sample app using all of them (Support, Chat, AnswerBot).
+This project is intended to show how the Zendesk SDKs are integrated to an iOS app, and allow you to create a branded and customized iOS simple sample app using all of them (Support, Chat, AnswerBot, Talk).
 
 ## REQUIREMENTS
 
@@ -75,25 +75,26 @@ static var script = """
 
 // Mobile SDK App ID
 // You can find this information at https://{subdomain}.zendesk.com/agent/admin/mobile_sdk
-static var appId = "2d8e09ff8fbc16f0872134115930297d1cb2e7a4080f514f"
+static var appId = "b55b6fd786619ac0ade48d7e05fab485c4d1374054c85ddb"
 
 // Mobile SDK Client ID
 // You can find this information at https://{subdomain}.zendesk.com/agent/admin/mobile_sdk
-static var clientId = "mobile_sdk_client_b6843f88bc1fc23caf47"
+static var clientId = "mobile_sdk_client_ee1265e9f9f8cacccbdb"
 
 // Zendesk URL
 // URL of your instance following the format https://{subdomain}.zendesk.com
 // PS: Do not include any additional path other than the main URL of your help center (do not add "/hc/en-us/...")
-static var zendeskUrl = "https://madisonisland.zendesk.com"
+static var zendeskUrl = "https://z3n-demobuilder.zendesk.com"
 
 // Fake Identity Name (anonymous authentication)
 static var identityName = "John Doe"
 
 // Fake Identity Email (anonymous authentication)
-static var identityEmail = "johndoe@z3ntest.com"
+static var identityEmail = "johndoe@example.com"
 
-// Fake Identity Phone (NUMBERS ONLY)
-static var identityPhone = "123456789"
+// Zendesk Talk Digital Line nickname
+// You can find this information at https://{subdomain}.zendesk.com/agent/admin/voice
+static var digitalLine = "TestLine"
 
 // Zendesk Chat Account Key
 // You can find this information at https://{subdomain}.zendesk.com/chat/agent
@@ -101,6 +102,7 @@ static var identityPhone = "123456789"
 static var chatKey = "uDwUGy6SFx9fJEs3iIAsS1kozRa7u0GR"
 
 // Add custom chat rating buttons? (Boolean: true / false)
+// IMPORTANT: This is not native on the Chat SDK UI. You can use it and present it as a custom feature.
 static var chatRating = false
 ```
 
@@ -127,7 +129,11 @@ Do not change any other file other than `Configuration.swift`, `help_center_arti
 
 ## CHANGELOG
 
-### 2020-02-23
+### 2021-03-29
+
+- Added Talk SDK
+
+### 2021-02-23
 
 - SDKs updated to their latest versions
 
