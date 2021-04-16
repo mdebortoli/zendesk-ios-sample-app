@@ -129,6 +129,10 @@ Do not change any other file other than `Configuration.swift`, `help_center_arti
 
 ## CHANGELOG
 
+### 2021-04-16
+
+- Stripped Bitcode from TwilioVoice after pod install as a workaround to commit the Talk SDK. This should only affect app submissions (not applicable for demo scenarios)
+
 ### 2021-03-29
 
 - Added Talk SDK

@@ -17,6 +17,7 @@
 			dependencies = (
 			);
 			name = ZendeskSDKConfigurationsSDK;
+			productName = ZendeskSDKConfigurationsSDK;
 		};
 		37E8A7EE87D035876454F72D479BE040 /* ZendeskChatSDK */ = {
 			isa = PBXAggregateTarget;
@@ -30,6 +31,7 @@
 				08A2885CAF1184A5A260923F574B555E /* PBXTargetDependency */,
 			);
 			name = ZendeskChatSDK;
+			productName = ZendeskChatSDK;
 		};
 		73614281932881D538B76C26B92E0193 /* TwilioVoice */ = {
 			isa = PBXAggregateTarget;
@@ -39,6 +41,7 @@
 			dependencies = (
 			);
 			name = TwilioVoice;
+			productName = TwilioVoice;
 		};
 		7D8830E5D05F68364F3360F2C0DA9813 /* ZendeskSupportProvidersSDK */ = {
 			isa = PBXAggregateTarget;
@@ -51,6 +54,7 @@
 				12CF09D3275381DFFAF1A5B76081BAA5 /* PBXTargetDependency */,
 			);
 			name = ZendeskSupportProvidersSDK;
+			productName = ZendeskSupportProvidersSDK;
 		};
 		AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */ = {
 			isa = PBXAggregateTarget;
@@ -62,6 +66,7 @@
 			dependencies = (
 			);
 			name = ZendeskCommonUISDK;
+			productName = ZendeskCommonUISDK;
 		};
 		B7FD2D91EB22188E295F7D1E59A7F649 /* ZendeskSupportSDK */ = {
 			isa = PBXAggregateTarget;
@@ -75,6 +80,7 @@
 				8D63735F6495365AFE881DC19F8879E3 /* PBXTargetDependency */,
 			);
 			name = ZendeskSupportSDK;
+			productName = ZendeskSupportSDK;
 		};
 		C03644355F64EC4A571948584FB50DAE /* ZendeskAnswerBotProvidersSDK */ = {
 			isa = PBXAggregateTarget;
@@ -87,6 +93,7 @@
 				884B2ADF3692139937C6E2AF56402479 /* PBXTargetDependency */,
 			);
 			name = ZendeskAnswerBotProvidersSDK;
+			productName = ZendeskAnswerBotProvidersSDK;
 		};
 		C24133A32883D93E31DDD62A77AAF401 /* ZendeskAnswerBotSDK */ = {
 			isa = PBXAggregateTarget;
@@ -100,6 +107,7 @@
 				4B2136C7B96758DE0195333A103CF99A /* PBXTargetDependency */,
 			);
 			name = ZendeskAnswerBotSDK;
+			productName = ZendeskAnswerBotSDK;
 		};
 		C93ACA25829757B8325108FC37341395 /* ZendeskTalkSDK */ = {
 			isa = PBXAggregateTarget;
@@ -111,6 +119,7 @@
 				9B06B1E338FABD585D38BD74F5E323A6 /* PBXTargetDependency */,
 			);
 			name = ZendeskTalkSDK;
+			productName = ZendeskTalkSDK;
 		};
 		CB83A11C8D5DDAE33988A94AF1C7653D /* ZendeskCoreSDK */ = {
 			isa = PBXAggregateTarget;
@@ -122,6 +131,7 @@
 			dependencies = (
 			);
 			name = ZendeskCoreSDK;
+			productName = ZendeskCoreSDK;
 		};
 		CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */ = {
 			isa = PBXAggregateTarget;
@@ -133,6 +143,7 @@
 			dependencies = (
 			);
 			name = ZendeskChatProvidersSDK;
+			productName = ZendeskChatProvidersSDK;
 		};
 		D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */ = {
 			isa = PBXAggregateTarget;
@@ -144,6 +155,7 @@
 				563184DC6363E050BBD300CBF130FF92 /* PBXTargetDependency */,
 			);
 			name = ZendeskMessagingAPISDK;
+			productName = ZendeskMessagingAPISDK;
 		};
 		D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */ = {
 			isa = PBXAggregateTarget;
@@ -157,6 +169,7 @@
 				95E805F32D5278CB2E8C93BF5AE673C2 /* PBXTargetDependency */,
 			);
 			name = ZendeskMessagingSDK;
+			productName = ZendeskMessagingSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -355,7 +368,7 @@
 		08D19DDB00389958350D0410E5079635 /* ZendeskChatProvidersSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskChatProvidersSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		1533D4113AE8D5B330DC5A9037A73E70 /* ZendeskChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatSDK.release.xcconfig; sourceTree = "<group>"; };
 		16C2FD70553A7C28FC454DB1309ADDB1 /* ZendeskSupportProvidersSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSupportProvidersSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		19AF2EE40976A299BDFAC7BEBAF39146 /* AnswerBotSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AnswerBotSDK.xcframework; sourceTree = "<group>"; };
+		19AF2EE40976A299BDFAC7BEBAF39146 /* AnswerBotSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = AnswerBotSDK.xcframework; sourceTree = "<group>"; };
 		1AB5224012A88744549394C863A066CA /* ZendeskCommonUISDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskCommonUISDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		1B741D3B490F6C5A763CD3CD1C464B49 /* ZendeskSupportProvidersSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSupportProvidersSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		21D4A3D706A9DB34EF10E4A6BA699CEA /* ZendeskMessagingAPISDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingAPISDK.release.xcconfig; sourceTree = "<group>"; };
@@ -365,14 +378,14 @@
 		2E2337CA6A7026788CB22C044BED7AC5 /* Pods-Zendesk Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zendesk Demo-acknowledgements.plist"; sourceTree = "<group>"; };
 		2EF737299CA95C0369FB9A9476284537 /* ZendeskCoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCoreSDK.debug.xcconfig; sourceTree = "<group>"; };
 		33FBB30564E9AF281400A7862D52585E /* ZendeskChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatSDK.debug.xcconfig; sourceTree = "<group>"; };
-		34D434D4A508ADFB5F64805FAB361DE7 /* SupportProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SupportProvidersSDK.xcframework; sourceTree = "<group>"; };
+		34D434D4A508ADFB5F64805FAB361DE7 /* SupportProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = SupportProvidersSDK.xcframework; sourceTree = "<group>"; };
 		3AD7CC30C4C4A3ED8461CF9E7F491584 /* ZendeskMessagingAPISDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskMessagingAPISDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		3BE2ABE15B14FFDC798547B3BDE4226E /* Pods_Zendesk_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zendesk_Demo.framework; path = "Pods-Zendesk Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE2ABE15B14FFDC798547B3BDE4226E /* Pods_Zendesk_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zendesk_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D59A0E2ADE3E4345B4A599F80B4AB5C /* TalkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TalkSDK.framework; sourceTree = "<group>"; };
 		4032C2EB01171992485707897FCC1BD9 /* Pods-Zendesk Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zendesk Demo-Info.plist"; sourceTree = "<group>"; };
 		418763EE64B429D1E8B6F087FADC66D6 /* Pods-Zendesk Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zendesk Demo-umbrella.h"; sourceTree = "<group>"; };
 		4BA4A3C3D5FA72B564EE157EC2CC1E8E /* Pods-Zendesk Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zendesk Demo-dummy.m"; sourceTree = "<group>"; };
-		4D1EC637A0D4AF5FF7F2D5903F10834A /* MessagingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MessagingSDK.xcframework; sourceTree = "<group>"; };
+		4D1EC637A0D4AF5FF7F2D5903F10834A /* MessagingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = MessagingSDK.xcframework; sourceTree = "<group>"; };
 		4D2E412F9F2B8248F427F636B1C276BF /* ZendeskTalkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskTalkSDK.release.xcconfig; sourceTree = "<group>"; };
 		4D323EC9DEE754937D585817347C7C1C /* ZendeskAnswerBotProvidersSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskAnswerBotProvidersSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		4D790350E0C9737F22DC0C96F6C7C4C9 /* ZendeskMessagingAPISDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingAPISDK.debug.xcconfig; sourceTree = "<group>"; };
@@ -387,21 +400,21 @@
 		60EB66E1B300B4F1CF7A1678DA06A7CE /* Pods-Zendesk Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zendesk Demo.modulemap"; sourceTree = "<group>"; };
 		61EB81001DA402C2B0915CC8BF0E8207 /* ZendeskSupportProvidersSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSupportProvidersSDK.debug.xcconfig; sourceTree = "<group>"; };
 		6DB7A74DE6B46295AA31528DAFAFAF69 /* ZendeskMessagingSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskMessagingSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
-		6F6BB050F36F5516C796B86FAEA52492 /* ChatSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ChatSDK.xcframework; sourceTree = "<group>"; };
+		6F6BB050F36F5516C796B86FAEA52492 /* ChatSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = ChatSDK.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		748B46AF364434F299BE3E2B03D47980 /* ZendeskSDKConfigurationsSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSDKConfigurationsSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		76EC415E834A932E244E538DD175C4A5 /* ZendeskAnswerBotProvidersSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotProvidersSDK.debug.xcconfig; sourceTree = "<group>"; };
 		7AC263F3CD62C72C60A78ECA80F997F3 /* ZendeskSupportSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSupportSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
-		8189B7258461A73BD2281D93885484A6 /* MessagingAPI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MessagingAPI.xcframework; sourceTree = "<group>"; };
+		8189B7258461A73BD2281D93885484A6 /* MessagingAPI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = MessagingAPI.xcframework; sourceTree = "<group>"; };
 		8242FFDDA604409C1E1B4DFEC0675885 /* ZendeskTalkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskTalkSDK.debug.xcconfig; sourceTree = "<group>"; };
-		827A552B645D60D1272770FBA8374F71 /* AnswerBotProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AnswerBotProvidersSDK.xcframework; sourceTree = "<group>"; };
+		827A552B645D60D1272770FBA8374F71 /* AnswerBotProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = AnswerBotProvidersSDK.xcframework; sourceTree = "<group>"; };
 		840166988A75AC2C006D280D9DF2DAD5 /* TwilioVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwilioVoice.release.xcconfig; sourceTree = "<group>"; };
-		85B770D497C9F2FA292115D5211C2E6E /* SDKConfigurations.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SDKConfigurations.xcframework; sourceTree = "<group>"; };
+		85B770D497C9F2FA292115D5211C2E6E /* SDKConfigurations.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = SDKConfigurations.xcframework; sourceTree = "<group>"; };
 		88B64C71B96DC2CDFAE771312A61B267 /* ZendeskMessagingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingSDK.debug.xcconfig; sourceTree = "<group>"; };
-		8B98F76AB44615947F5453272DCB7704 /* ZendeskCoreSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZendeskCoreSDK.xcframework; sourceTree = "<group>"; };
+		8B98F76AB44615947F5453272DCB7704 /* ZendeskCoreSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = ZendeskCoreSDK.xcframework; sourceTree = "<group>"; };
 		8CF4AE253AA18A741A44A061ACDF8F2A /* ZendeskChatProvidersSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatProvidersSDK.release.xcconfig; sourceTree = "<group>"; };
 		9A7467486A1F400333B39D8A7EBC4D5F /* ZendeskSupportSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSupportSDK.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2993952A9F2988F321E14FBDEB6E7F5 /* TwilioVoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwilioVoice.debug.xcconfig; sourceTree = "<group>"; };
 		A326ED5D2A057AA586E3A5C5B2B4637D /* ZendeskAnswerBotSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskAnswerBotSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		A4972653AC660230FB5DC4FEFA911D13 /* ZendeskSDKConfigurationsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSDKConfigurationsSDK.debug.xcconfig; sourceTree = "<group>"; };
@@ -413,7 +426,7 @@
 		C57FEA21FAA2DEA6373064F083BEACDE /* ZendeskAnswerBotSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotSDK.debug.xcconfig; sourceTree = "<group>"; };
 		C7E620D53AA05D4E407821E56D73C43B /* ZendeskSDKConfigurationsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSDKConfigurationsSDK.release.xcconfig; sourceTree = "<group>"; };
 		CAC3F00478CC4DCBB4A537769DF6BEE0 /* ZendeskAnswerBotProvidersSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotProvidersSDK.release.xcconfig; sourceTree = "<group>"; };
-		D0CD65A597DAA7C45CE1EDBA5D1E0C2C /* CommonUISDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CommonUISDK.xcframework; sourceTree = "<group>"; };
+		D0CD65A597DAA7C45CE1EDBA5D1E0C2C /* CommonUISDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = CommonUISDK.xcframework; sourceTree = "<group>"; };
 		D814B491B14C7EFB8E99D0DABB72015E /* ZendeskAnswerBotSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskAnswerBotSDK.release.xcconfig; sourceTree = "<group>"; };
 		DA1524C47E934CB35F58712839D170F8 /* ZendeskCoreSDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskCoreSDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		DA92D6693A230FA842420FC5C0134D31 /* ZendeskCoreSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskCoreSDK-xcframeworks.sh"; sourceTree = "<group>"; };
@@ -421,8 +434,8 @@
 		E44A19D5FFEF431501C2E25ED47E4B03 /* ZendeskMessagingSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskMessagingSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		E5DE6B556329FA6B9FC6F6FC7D256CDE /* ZendeskSDKConfigurationsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSDKConfigurationsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		EE22BE4397C070D8657D7ECD166C6005 /* ZendeskMessagingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingSDK.release.xcconfig; sourceTree = "<group>"; };
-		F7D62511F8551A7E1E304DCAC4A3AC2F /* SupportSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SupportSDK.xcframework; sourceTree = "<group>"; };
-		F948A18B24F2E560DF417760E3B704E7 /* ChatProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ChatProvidersSDK.xcframework; sourceTree = "<group>"; };
+		F7D62511F8551A7E1E304DCAC4A3AC2F /* SupportSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = SupportSDK.xcframework; sourceTree = "<group>"; };
+		F948A18B24F2E560DF417760E3B704E7 /* ChatProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = ChatProvidersSDK.xcframework; sourceTree = "<group>"; };
 		FD2C4070B010EE68752AE67070857714 /* ZendeskCoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCoreSDK.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -444,7 +457,6 @@
 				59C7D9A1CEE891A8F9CC52566172079A /* Frameworks */,
 				9154043F52A7BE1261629425B38E6DC6 /* Support Files */,
 			);
-			name = ZendeskAnswerBotSDK;
 			path = ZendeskAnswerBotSDK;
 			sourceTree = "<group>";
 		};
@@ -454,7 +466,6 @@
 				0DE31B1869DABD7AEAB8E0A169A70C08 /* Frameworks */,
 				527B30072232EA6B3148B58AAA4AAC1A /* Support Files */,
 			);
-			name = ZendeskSupportProvidersSDK;
 			path = ZendeskSupportProvidersSDK;
 			sourceTree = "<group>";
 		};
@@ -524,7 +535,6 @@
 				B54E9DDB31445C5F544417EBA008DE77 /* Frameworks */,
 				CF48BB5BB20C385D4BE3A111B25EE926 /* Support Files */,
 			);
-			name = TwilioVoice;
 			path = TwilioVoice;
 			sourceTree = "<group>";
 		};
@@ -534,7 +544,6 @@
 				59637A59AA2FCC14733F747AC8150ACC /* Frameworks */,
 				CA3BBC3E6298D53B13E745736006E586 /* Support Files */,
 			);
-			name = ZendeskMessagingAPISDK;
 			path = ZendeskMessagingAPISDK;
 			sourceTree = "<group>";
 		};
@@ -576,7 +585,6 @@
 				0AC3C93451014ADFA975AA496ECC85B5 /* Frameworks */,
 				763EBCD0A8DA4C6A1A698F506B9A7AB4 /* Support Files */,
 			);
-			name = ZendeskSDKConfigurationsSDK;
 			path = ZendeskSDKConfigurationsSDK;
 			sourceTree = "<group>";
 		};
@@ -650,7 +658,6 @@
 				13639C65F8780D7739975237A174EB65 /* Frameworks */,
 				81F04FE05D583251C213019AD244E206 /* Support Files */,
 			);
-			name = ZendeskAnswerBotProvidersSDK;
 			path = ZendeskAnswerBotProvidersSDK;
 			sourceTree = "<group>";
 		};
@@ -668,7 +675,6 @@
 				057E33C4E65FA58EE372286C32DF57D9 /* Frameworks */,
 				16B318CC9AB6D057F4496FD80DF70179 /* Support Files */,
 			);
-			name = ZendeskMessagingSDK;
 			path = ZendeskMessagingSDK;
 			sourceTree = "<group>";
 		};
@@ -759,7 +765,6 @@
 				4B6D05B4295442595C9244236F2B247B /* Frameworks */,
 				73C0BE1584BD97BE70E565487118B42D /* Support Files */,
 			);
-			name = ZendeskCoreSDK;
 			path = ZendeskCoreSDK;
 			sourceTree = "<group>";
 		};
@@ -791,7 +796,6 @@
 				71FC9886B541CE1CD7C38485597E1696 /* Frameworks */,
 				329EFD49A6667BF783ED0AC309B3D305 /* Support Files */,
 			);
-			name = ZendeskChatProvidersSDK;
 			path = ZendeskChatProvidersSDK;
 			sourceTree = "<group>";
 		};
@@ -809,7 +813,6 @@
 				7656D9EEC5E68AF25F37380FCA6B534B /* Frameworks */,
 				88959D7ECE30B9B683589D8B05A64144 /* Support Files */,
 			);
-			name = ZendeskSupportSDK;
 			path = ZendeskSupportSDK;
 			sourceTree = "<group>";
 		};
@@ -871,7 +874,6 @@
 				5DE8513DFB8E47958A6D932FCF36FA58 /* Frameworks */,
 				A0251ED473070AF6FC5C0B04C05F5482 /* Support Files */,
 			);
-			name = ZendeskTalkSDK;
 			path = ZendeskTalkSDK;
 			sourceTree = "<group>";
 		};
@@ -881,7 +883,6 @@
 				0FFA45C20A24EE7CD7BDE69F5DC5D70B /* Frameworks */,
 				523C785F2E644B4A66815B82EB017727 /* Support Files */,
 			);
-			name = ZendeskChatSDK;
 			path = ZendeskChatSDK;
 			sourceTree = "<group>";
 		};
@@ -891,7 +892,6 @@
 				0B5310EF6CC86A76891E0DA7B9CE90E5 /* Frameworks */,
 				C6ACF99BFE8F8530AE924306FCD5F990 /* Support Files */,
 			);
-			name = ZendeskCommonUISDK;
 			path = ZendeskCommonUISDK;
 			sourceTree = "<group>";
 		};
@@ -955,7 +955,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 11.0";
@@ -1536,7 +1536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1554,7 +1554,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1572,7 +1572,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1590,7 +1590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1608,7 +1608,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1625,7 +1625,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1643,7 +1643,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1661,7 +1661,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1679,7 +1679,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1696,7 +1696,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1779,7 +1779,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1796,7 +1796,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1813,7 +1813,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1930,7 +1930,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1947,7 +1947,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1965,7 +1965,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1982,7 +1982,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1999,7 +1999,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2017,7 +2017,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2073,7 +2073,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2090,7 +2090,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2108,7 +2108,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2125,7 +2125,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2143,7 +2143,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2160,7 +2160,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2177,7 +2177,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

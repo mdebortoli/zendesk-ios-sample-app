@@ -1,0 +1,29 @@
+//
+//  TwilioVoiceStaticLibOpensslCompatTests-Config.xcconfig
+//
+
+// Architectures.
+ARCHS = $(ARCHS_STANDARD)
+ARCHS[sdk=iphoneos*] = arm64
+ARCHS[sdk=iphonesimulator*] = x86_64
+
+// Linking.
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
+
+OTHER_LDFLAGS = -lcrypto -lssl -lTwilioVoice -framework CoreTelephony -framework Foundation -framework SystemConfiguration -framework CFNetwork -framework MobileCoreServices -framework QuickLook -framework CoreMedia -framework AudioToolbox -framework AVFoundation -framework Accelerate -ObjC -Xlinker -lc++ -lstdc++ -all_load
+
+OTHER_CFLAGS = -fembed-bitcode -Wall
+OTHER_CFLAGS[sdk=iphoneos*] = $(OTHER_CFLAGS) -DARM
+
+// NOTE: OpenSSL binaries and includes for openssl 1.1.0k and 1.1.1d are currently included in the repo.
+// You can switch between these (or any other version we explicitly add) by changing this variable, which
+// matches the folder under Vendor/openssl
+OPENSSL_VERSION = openssl-1.1.0k
+//OPENSSL_VERSION = openssl-1.1.1d
+
+HEADER_SEARCH_PATHS[sdk=iphoneos*] = $(SRCROOT)/../Vendor/openssl/$(OPENSSL_VERSION)/iPhoneOS11.4-$(CURRENT_ARCH).sdk/include
+HEADER_SEARCH_PATHS[sdk=iphonesimulator*] = $(SRCROOT)/../Vendor/openssl/$(OPENSSL_VERSION)/iPhoneSimulator11.4-$(CURRENT_ARCH).sdk/include
+
+
+LIBRARY_SEARCH_PATHS[sdk=iphoneos*] = $(SRCROOT)/../Vendor/openssl/$(OPENSSL_VERSION)/iPhoneOS11.4-$(CURRENT_ARCH).sdk/lib
+LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*] = $(SRCROOT)/../Vendor/openssl/$(OPENSSL_VERSION)/iPhoneSimulator11.4-$(CURRENT_ARCH).sdk/lib
